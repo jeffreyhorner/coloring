@@ -1,0 +1,10 @@
+#!/home/hornerj/R-sources/branches/R-2-13-branch/bin/Rscript
+dn <- file('/dev/null',open="w")
+sink(dn,type='output')
+sink(dn,type='message')
+library(twitteR)
+sink(NULL,type='message')
+sink(NULL,type='output')
+close(dn)
+strp <- function(x) gsub('[\n,]','',x,perl=TRUE)
+cat(unlist(lapply(searchTwitter('#color color.com',n=50),function(x) paste(created(x),screenName(x),strp(statusText(x)),sep=','))),sep="\n")
