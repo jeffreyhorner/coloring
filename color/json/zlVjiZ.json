@@ -1,0 +1,158 @@
+{
+  item: [
+  {
+    id: 122620990217,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 4903654145,
+    timestamp_client: 1301240395769,
+    child_item: [
+    {
+      id: 123272155913,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 122620990217,
+      user_id: 4709447169,
+      timestamp_client: 1301244601167,
+      text: "Happy birthday.",
+      photo: 
+      {
+        photo_id: 123272155908
+      },
+      num_likes: 1,
+      liked_by_user_id: [
+      4709447169
+      ]
+    },
+    {
+      id: 122596872969,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 122620990217,
+      user_id: 4709447169,
+      timestamp_client: 1301240716788,
+      photo: 
+      {
+        photo_id: 122596872964
+      },
+      num_likes: 1,
+      comment_child_item: [
+      {
+        id: 123146326793,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 122620990217,
+        reply_to_item_id: 122596872969,
+        user_id: 4709447169,
+        timestamp_client: 1301241491680,
+        text: "So Purdey!"
+      }
+      ],
+      liked_by_user_id: [
+      4903654145
+      ]
+    },
+    {
+      id: 123084460809,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 122620990217,
+      user_id: 4903654145,
+      timestamp_client: 1301240691909,
+      photo: 
+      {
+        photo_id: 123084460804
+      }
+    },
+    {
+      id: 122958631689,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 122620990217,
+      user_id: 4903654145,
+      timestamp_client: 1301240639761,
+      photo: 
+      {
+        photo_id: 122958631684
+      },
+      comment_child_item: [
+      {
+        id: 123049857801,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 122620990217,
+        reply_to_item_id: 122958631689,
+        user_id: 4709447169,
+        timestamp_client: 1301241454930,
+        text: "I am tired and want to go to sleep smile!"
+      }
+      ]
+    },
+    {
+      id: 122937660169,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 122620990217,
+      user_id: 4903654145,
+      timestamp_client: 1301240456180,
+      photo: 
+      {
+        photo_id: 122937660164
+      },
+      num_likes: 1,
+      liked_by_user_id: [
+      4709447169
+      ]
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      4903654145,
+      4709447169
+      ],
+      counts: 
+      {
+        num_likes: 3,
+        num_photos: 5,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 5
+      },
+      timestamp_last_significant_update: 1301244601167,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      4709447169,
+      4903654145
+      ],
+      multilens_thread_view_contributor: [
+      4903654145,
+      4709447169
+      ],
+      non_multilens_thread_view_contributor: [
+      4903654145,
+      4709447169
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 4903654145,
+    name: "Jill",
+    profile_photo_id: 122707801604,
+    last_updated_millis: 1301247887384
+  },
+  {
+    id: 4709447169,
+    name: "Richy",
+    profile_photo_id: 122567512836,
+    last_updated_millis: 1301247622357,
+    is_account_recovery_phone_set: true
+  }
+  ]
+}

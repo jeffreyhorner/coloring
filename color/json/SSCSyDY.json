@@ -1,0 +1,109 @@
+{
+  item: [
+  {
+    id: 134704772361,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 3904353537,
+    timestamp_client: 1301676441981,
+    child_item: [
+    {
+      id: 134488765705,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 134704772361,
+      user_id: 6814642177,
+      timestamp_client: 1301680548940,
+      photo: 
+      {
+        photo_id: 134488765700
+      },
+      comment_child_item: [
+      {
+        id: 134705820937,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 134704772361,
+        reply_to_item_id: 134488765705,
+        user_id: 1862619393,
+        timestamp_client: 1301680742016,
+        text: "How is that place?"
+      },
+      {
+        id: 134827455753,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 134704772361,
+        reply_to_item_id: 134488765705,
+        user_id: 6814642177,
+        timestamp_client: 1301680591750,
+        text: "James dimartino"
+      }
+      ]
+    },
+    {
+      id: 134480377097,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 134704772361,
+      user_id: 6814642177,
+      timestamp_client: 1301676536532,
+      photo: 
+      {
+        photo_id: 134480377092
+      },
+      is_profile_photo: true,
+      num_likes: 1,
+      liked_by_user_id: [
+      6814642177
+      ]
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      6814642177
+      ],
+      counts: 
+      {
+        num_likes: 1,
+        num_photos: 2,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 2
+      },
+      timestamp_last_significant_update: 1301680548940,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      6814642177,
+      1862619393
+      ],
+      multilens_thread_view_contributor: [
+      6814642177
+      ],
+      non_multilens_thread_view_contributor: [
+      6814642177
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 1862619393,
+    name: "Kris",
+    profile_photo_id: 114136116740,
+    last_updated_millis: 1301087300597,
+    is_account_recovery_phone_set: true
+  },
+  {
+    id: 6814642177,
+    name: "Neil",
+    profile_photo_id: 134480377092,
+    last_updated_millis: 1301680705448
+  }
+  ]
+}

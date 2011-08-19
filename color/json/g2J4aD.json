@@ -1,0 +1,109 @@
+{
+  item: [
+  {
+    id: 106580700681,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 1648651777,
+    timestamp_client: 1300981285228,
+    child_item: [
+    {
+      id: 106837601801,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 106580700681,
+      user_id: 1646367233,
+      timestamp_client: 1300982215372,
+      photo: 
+      {
+        photo_id: 106837601796
+      },
+      is_profile_photo: true,
+      num_likes: 3,
+      liked_by_user_id: [
+      1646367233,
+      1780267777,
+      1806948609
+      ]
+    },
+    {
+      id: 106982305289,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 106580700681,
+      user_id: 1849858561,
+      timestamp_client: 1300981593726,
+      photo: 
+      {
+        photo_id: 106982305284
+      }
+    },
+    {
+      id: 106618449417,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 106580700681,
+      user_id: 1849858561,
+      timestamp_client: 1300981547662,
+      photo: 
+      {
+        photo_id: 106618449412
+      },
+      is_profile_photo: true,
+      num_likes: 1,
+      liked_by_user_id: [
+      1806948609
+      ]
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      1849858561,
+      1646367233
+      ],
+      counts: 
+      {
+        num_likes: 4,
+        num_photos: 3,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 3
+      },
+      timestamp_last_significant_update: 1300982215372,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      1646367233,
+      1849858561
+      ],
+      multilens_thread_view_contributor: [
+      1849858561,
+      1646367233
+      ],
+      non_multilens_thread_view_contributor: [
+      1849858561,
+      1646367233
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 1849858561,
+    name: "Colin",
+    profile_photo_id: 106618449412,
+    last_updated_millis: 1301050777217
+  },
+  {
+    id: 1646367233,
+    name: "Steph",
+    profile_photo_id: 109847876100,
+    last_updated_millis: 1301055646975,
+    is_account_recovery_phone_set: true
+  }
+  ]
+}

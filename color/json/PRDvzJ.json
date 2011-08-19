@@ -1,0 +1,136 @@
+{
+  item: [
+  {
+    id: 118133243401,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 2742697473,
+    timestamp_client: 1301167772219,
+    child_item: [
+    {
+      id: 118309404169,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 118133243401,
+      user_id: 2038684417,
+      timestamp_client: 1301168344175,
+      photo: 
+      {
+        photo_id: 118309404164
+      }
+    },
+    {
+      id: 118044114441,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 118133243401,
+      user_id: 4358548225,
+      timestamp_client: 1301168338180,
+      photo: 
+      {
+        photo_id: 118044114436
+      },
+      num_likes: 1,
+      comment_child_item: [
+      {
+        id: 118215032329,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 118133243401,
+        reply_to_item_id: 118044114441,
+        user_id: 4358548225,
+        timestamp_client: 1301168417245,
+        text: "#podiostore"
+      }
+      ],
+      liked_by_user_id: [
+      4358548225
+      ]
+    },
+    {
+      id: 118242295305,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 118133243401,
+      user_id: 4358548225,
+      timestamp_client: 1301168227456,
+      photo: 
+      {
+        photo_id: 118242295300
+      },
+      is_profile_photo: true
+    },
+    {
+      id: 118296821257,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 118133243401,
+      user_id: 2742697473,
+      timestamp_client: 1301167799394,
+      text: "Soma inn cafe",
+      photo: 
+      {
+        photo_id: 118296821252
+      }
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      2742697473,
+      4358548225,
+      2038684417
+      ],
+      counts: 
+      {
+        num_likes: 1,
+        num_photos: 4,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 4
+      },
+      timestamp_last_significant_update: 1301168344175,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      2038684417,
+      4358548225,
+      2742697473
+      ],
+      multilens_thread_view_contributor: [
+      2742697473,
+      4358548225,
+      2038684417
+      ],
+      non_multilens_thread_view_contributor: [
+      2742697473,
+      4358548225,
+      2038684417
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 2038684417,
+    name: "Jonathan",
+    profile_photo_id: 107977972228,
+    last_updated_millis: 1301001002275
+  },
+  {
+    id: 4358548225,
+    name: "Kasper",
+    profile_photo_id: 118242295300,
+    last_updated_millis: 1301168595315
+  },
+  {
+    id: 2742697473,
+    name: "Gordon",
+    profile_photo_id: 110620196356,
+    last_updated_millis: 1301167774328
+  }
+  ]
+}

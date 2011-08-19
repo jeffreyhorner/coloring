@@ -1,0 +1,217 @@
+{
+  item: [
+  {
+    id: 130720112905,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 1474732289,
+    timestamp_client: 1301488073222,
+    child_item: [
+    {
+      id: 130770444553,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 130720112905,
+      user_id: 6407969281,
+      timestamp_client: 1301488632688,
+      photo: 
+      {
+        photo_id: 130770444548
+      },
+      is_profile_photo: true
+    },
+    {
+      id: 130826019081,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 130720112905,
+      user_id: 6407969281,
+      timestamp_client: 1301488331078,
+      photo: 
+      {
+        photo_id: 130826019076
+      },
+      num_likes: 1,
+      liked_by_user_id: [
+      6369502209
+      ]
+    },
+    {
+      id: 130855379209,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 130720112905,
+      user_id: 6407969281,
+      timestamp_client: 1301488298362,
+      photo: 
+      {
+        photo_id: 130855379204
+      },
+      num_likes: 1,
+      comment_child_item: [
+      {
+        id: 130562826505,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 130720112905,
+        reply_to_item_id: 130855379209,
+        user_id: 1474732289,
+        timestamp_client: 1301488420518,
+        text: "Oh qu'il est beau"
+      }
+      ],
+      liked_by_user_id: [
+      6369502209
+      ]
+    },
+    {
+      id: 130721161481,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 130720112905,
+      user_id: 6545079553,
+      timestamp_client: 1301488276407,
+      photo: 
+      {
+        photo_id: 130721161476
+      },
+      is_profile_photo: true
+    },
+    {
+      id: 130505154825,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 130720112905,
+      user_id: 1474732289,
+      timestamp_client: 1301488257293,
+      photo: 
+      {
+        photo_id: 130505154820
+      }
+    },
+    {
+      id: 130426511625,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 130720112905,
+      user_id: 6407969281,
+      timestamp_client: 1301488254449,
+      photo: 
+      {
+        photo_id: 130426511620
+      },
+      num_likes: 1,
+      liked_by_user_id: [
+      6369502209
+      ]
+    },
+    {
+      id: 130880545033,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 130720112905,
+      user_id: 6407969281,
+      timestamp_client: 1301488179339,
+      photo: 
+      {
+        photo_id: 130880545028
+      },
+      is_profile_photo: true
+    },
+    {
+      id: 130590089481,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 130720112905,
+      user_id: 1474732289,
+      timestamp_client: 1301488083062,
+      photo: 
+      {
+        photo_id: 130590089476
+      }
+    },
+    {
+      id: 130937168137,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 130720112905,
+      user_id: 6369502209,
+      timestamp_client: 1301488050276,
+      photo: 
+      {
+        photo_id: 130937168132
+      },
+      is_profile_photo: true
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      6369502209,
+      1474732289,
+      6545079553,
+      6407969281
+      ],
+      counts: 
+      {
+        num_likes: 3,
+        num_photos: 9,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 9
+      },
+      timestamp_last_significant_update: 1301488632688,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      1474732289,
+      6545079553,
+      6407969281,
+      6369502209
+      ],
+      multilens_thread_view_contributor: [
+      6369502209,
+      1474732289,
+      6545079553,
+      6407969281
+      ],
+      non_multilens_thread_view_contributor: [
+      6369502209,
+      1474732289,
+      6545079553,
+      6407969281
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 1474732289,
+    name: "Nico",
+    profile_photo_id: 106582019588,
+    last_updated_millis: 1301004424067,
+    is_account_recovery_phone_set: true
+  },
+  {
+    id: 6369502209,
+    name: "Stanislas",
+    profile_photo_id: 130937168132,
+    last_updated_millis: 1301488560304
+  },
+  {
+    id: 6407969281,
+    name: "Gabriel",
+    profile_photo_id: 130770444548,
+    last_updated_millis: 1301488661083
+  },
+  {
+    id: 6545079553,
+    name: "Blaise",
+    profile_photo_id: 130721161476,
+    last_updated_millis: 1301488306424
+  }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  item: [
+  {
+    id: 109182655497,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 1166744577,
+    timestamp_client: 1301005152179,
+    child_item: [
+    {
+      id: 109714283529,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 109182655497,
+      user_id: 1166744577,
+      timestamp_client: 1301009082631,
+      photo: 
+      {
+        photo_id: 109714283524
+      }
+    },
+    {
+      id: 109307436041,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 109182655497,
+      user_id: 1166744577,
+      timestamp_client: 1301005175418,
+      photo: 
+      {
+        photo_id: 109307436036
+      },
+      num_likes: 1,
+      comment_child_item: [
+      {
+        id: 110846745609,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 109182655497,
+        reply_to_item_id: 109307436041,
+        user_id: 1166744577,
+        timestamp_client: 1301021495328,
+        text: "Rod fuelling up"
+      }
+      ],
+      liked_by_user_id: [
+      1166744577
+      ]
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      1166744577
+      ],
+      counts: 
+      {
+        num_likes: 1,
+        num_photos: 2,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 2
+      },
+      timestamp_last_significant_update: 1301009082631,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      1166744577
+      ],
+      multilens_thread_view_contributor: [
+      1166744577
+      ],
+      non_multilens_thread_view_contributor: [
+      1166744577
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 1166744577,
+    name: "Ash",
+    profile_photo_id: 105401490436,
+    last_updated_millis: 1301039347600
+  }
+  ]
+}

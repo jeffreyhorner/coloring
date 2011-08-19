@@ -1,0 +1,148 @@
+{
+  item: [
+  {
+    id: 109504951561,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 2566976769,
+    timestamp_client: 1301013688350,
+    child_item: [
+    {
+      id: 109563671817,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 109504951561,
+      user_id: 2718800385,
+      timestamp_client: 1301014209317,
+      photo: 
+      {
+        photo_id: 109563671812
+      }
+    },
+    {
+      id: 109431551241,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 109504951561,
+      user_id: 2718800385,
+      timestamp_client: 1301014166329,
+      photo: 
+      {
+        photo_id: 109431551236
+      },
+      is_profile_photo: true
+    },
+    {
+      id: 109391705353,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 109504951561,
+      user_id: 2566976769,
+      timestamp_client: 1301013885359,
+      photo: 
+      {
+        photo_id: 109391705348
+      }
+    },
+    {
+      id: 109531165961,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 109504951561,
+      user_id: 2566976769,
+      timestamp_client: 1301013819754,
+      photo: 
+      {
+        photo_id: 109531165956
+      }
+    },
+    {
+      id: 109349762313,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 109504951561,
+      user_id: 2566976769,
+      timestamp_client: 1301013689375,
+      photo: 
+      {
+        photo_id: 109349762308
+      },
+      is_profile_photo: true,
+      num_likes: 1,
+      comment_child_item: [
+      {
+        id: 109483980041,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 109504951561,
+        reply_to_item_id: 109349762313,
+        user_id: 2566976769,
+        timestamp_client: 1301013743989,
+        text: "Right!"
+      },
+      {
+        id: 109473494281,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 109504951561,
+        reply_to_item_id: 109349762313,
+        user_id: 2566976769,
+        timestamp_client: 1301013731079,
+        text: "Hey now!"
+      }
+      ],
+      liked_by_user_id: [
+      2566976769
+      ]
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      2566976769,
+      2718800385
+      ],
+      counts: 
+      {
+        num_likes: 1,
+        num_photos: 5,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 5
+      },
+      timestamp_last_significant_update: 1301014209317,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      2718800385,
+      2566976769
+      ],
+      multilens_thread_view_contributor: [
+      2566976769,
+      2718800385
+      ],
+      non_multilens_thread_view_contributor: [
+      2566976769,
+      2718800385
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 2718800385,
+    name: "Rad",
+    profile_photo_id: 109431551236,
+    last_updated_millis: 1301014174283
+  },
+  {
+    id: 2566976769,
+    name: "Evan",
+    profile_photo_id: 109349762308,
+    last_updated_millis: 1301032791654
+  }
+  ]
+}

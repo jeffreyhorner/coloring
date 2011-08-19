@@ -1,0 +1,131 @@
+{
+  item: [
+  {
+    id: 112706736905,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 3260568321,
+    timestamp_client: 1301071707113,
+    child_item: [
+    {
+      id: 113494217481,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 112706736905,
+      user_id: 3260568321,
+      timestamp_client: 1301072921046,
+      text: "Red Mini",
+      photo: 
+      {
+        photo_id: 113494217476
+      }
+    },
+    {
+      id: 113223684873,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 112706736905,
+      user_id: 3108715265,
+      timestamp_client: 1301072290151,
+      photo: 
+      {
+        photo_id: 113223684868
+      },
+      is_profile_photo: true,
+      num_likes: 1,
+      comment_child_item: [
+      {
+        id: 113262482185,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 112706736905,
+        reply_to_item_id: 113223684873,
+        user_id: 3108715265,
+        timestamp_client: 1301072428965,
+        text: "Westwood:-)"
+      }
+      ],
+      liked_by_user_id: [
+      3260568321
+      ]
+    },
+    {
+      id: 113180693257,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 112706736905,
+      user_id: 3260568321,
+      timestamp_client: 1301071699281,
+      photo: 
+      {
+        photo_id: 113180693252
+      },
+      is_profile_photo: true,
+      num_likes: 1,
+      comment_child_item: [
+      {
+        id: 113291842313,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 112706736905,
+        reply_to_item_id: 113180693257,
+        user_id: 3260568321,
+        timestamp_client: 1301071847020,
+        text: "Damn I'm sleepy"
+      }
+      ],
+      liked_by_user_id: [
+      3260568321
+      ]
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      3108715265,
+      3260568321
+      ],
+      counts: 
+      {
+        num_likes: 2,
+        num_photos: 3,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 3
+      },
+      timestamp_last_significant_update: 1301072921046,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      3260568321,
+      3108715265
+      ],
+      multilens_thread_view_contributor: [
+      3108715265,
+      3260568321
+      ],
+      non_multilens_thread_view_contributor: [
+      3108715265,
+      3260568321
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 3108715265,
+    name: "Rosa",
+    profile_photo_id: 113223684868,
+    last_updated_millis: 1301072302665
+  },
+  {
+    id: 3260568321,
+    name: "TRAIN",
+    profile_photo_id: 113180693252,
+    last_updated_millis: 1301080828425
+  }
+  ]
+}

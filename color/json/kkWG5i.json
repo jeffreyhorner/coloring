@@ -1,0 +1,87 @@
+{
+  item: [
+  {
+    id: 130106624009,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 6047500289,
+    timestamp_client: 1301409690791,
+    child_item: [
+    {
+      id: 129745913865,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 130106624009,
+      user_id: 6047500289,
+      timestamp_client: 1301409959772,
+      photo: 
+      {
+        photo_id: 129745913860
+      },
+      comment_child_item: [
+      {
+        id: 129996523529,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 130106624009,
+        reply_to_item_id: 129745913865,
+        user_id: 6047500289,
+        timestamp_client: 1301410025485,
+        text: "うーむ。使い方がわからん"
+      }
+      ]
+    },
+    {
+      id: 130218821641,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 130106624009,
+      user_id: 6047500289,
+      timestamp_client: 1301409686019,
+      photo: 
+      {
+        photo_id: 130218821636
+      },
+      is_profile_photo: true
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      6047500289
+      ],
+      counts: 
+      {
+        num_likes: 0,
+        num_photos: 2,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 2
+      },
+      timestamp_last_significant_update: 1301409959772,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      6047500289
+      ],
+      multilens_thread_view_contributor: [
+      6047500289
+      ],
+      non_multilens_thread_view_contributor: [
+      6047500289
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 6047500289,
+    name: "Shinya",
+    profile_photo_id: 130218821636,
+    last_updated_millis: 1301409818491
+  }
+  ]
+}

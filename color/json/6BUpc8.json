@@ -1,0 +1,156 @@
+{
+  item: [
+  {
+    id: 115861629705,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 3495176961,
+    timestamp_client: 1301111223296,
+    child_item: [
+    {
+      id: 116288400137,
+      type: "EXPLICIT",
+      media: "VIDEO",
+      root_item_id: 115861629705,
+      user_id: 3713134849,
+      timestamp_client: 1301111569665,
+      video: 
+      {
+        video_id: 116288400133
+      }
+    },
+    {
+      id: 116158376713,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 115861629705,
+      user_id: 3495176961,
+      timestamp_client: 1301111555663,
+      photo: 
+      {
+        photo_id: 116158376708
+      }
+    },
+    {
+      id: 116119579401,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 115861629705,
+      user_id: 3713134849,
+      timestamp_client: 1301111406547,
+      photo: 
+      {
+        photo_id: 116119579396
+      }
+    },
+    {
+      id: 116086024969,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 115861629705,
+      user_id: 3713134849,
+      timestamp_client: 1301111373374,
+      photo: 
+      {
+        photo_id: 116086024964
+      },
+      comment_child_item: [
+      {
+        id: 115941321481,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 115861629705,
+        reply_to_item_id: 116086024969,
+        user_id: 3495176961,
+        timestamp_client: 1301111401426,
+        text: "Awesome."
+      }
+      ]
+    },
+    {
+      id: 116247505673,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 115861629705,
+      user_id: 3636218369,
+      timestamp_client: 1301111357635,
+      photo: 
+      {
+        photo_id: 116247505668
+      }
+    },
+    {
+      id: 116097559305,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 115861629705,
+      user_id: 3495176961,
+      timestamp_client: 1301111313955,
+      photo: 
+      {
+        photo_id: 116097559300
+      }
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      3636218369,
+      3495176961,
+      3713134849
+      ],
+      counts: 
+      {
+        num_likes: 0,
+        num_photos: 5,
+        num_videos: 1,
+        num_texts: 0,
+        num_members: 6
+      },
+      timestamp_last_significant_update: 1301111569665,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      3495176961,
+      3713134849,
+      3636218369
+      ],
+      multilens_thread_view_contributor: [
+      3636218369,
+      3495176961,
+      3713134849
+      ],
+      non_multilens_thread_view_contributor: [
+      3636218369,
+      3495176961,
+      3713134849
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 3636218369,
+    name: "Marina",
+    profile_photo_id: 116347652612,
+    last_updated_millis: 1301108698431,
+    is_account_recovery_phone_set: true
+  },
+  {
+    id: 3713134849,
+    name: "Corey",
+    profile_photo_id: 115214512388,
+    last_updated_millis: 1301109823915
+  },
+  {
+    id: 3495176961,
+    name: "David Metcalfe",
+    profile_photo_id: 115766209284,
+    last_updated_millis: 1301111500792,
+    is_account_recovery_phone_set: true
+  }
+  ]
+}

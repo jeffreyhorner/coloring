@@ -1,0 +1,173 @@
+{
+  item: [
+  {
+    id: 108405033481,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 1392609793,
+    timestamp_client: 1301000810346,
+    child_item: [
+    {
+      id: 108631525897,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 108405033481,
+      user_id: 1392609793,
+      timestamp_client: 1301003563529,
+      photo: 
+      {
+        photo_id: 108631525892
+      }
+    },
+    {
+      id: 108717509129,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 108405033481,
+      user_id: 1392609793,
+      timestamp_client: 1301001039900,
+      photo: 
+      {
+        photo_id: 108717509124
+      },
+      num_likes: 1,
+      comment_child_item: [
+      {
+        id: 108592728585,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 108405033481,
+        reply_to_item_id: 108717509129,
+        user_id: 1776064513,
+        timestamp_client: 1301001068438,
+        text: "Zerem to!"
+      }
+      ],
+      liked_by_user_id: [
+      1776064513
+      ]
+    },
+    {
+      id: 108712266249,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 108405033481,
+      user_id: 1776064513,
+      timestamp_client: 1301001031335,
+      text: "Ki a borjat ...",
+      photo: 
+      {
+        photo_id: 108712266244
+      },
+      num_likes: 1,
+      comment_child_item: [
+      {
+        id: 108713314825,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 108405033481,
+        reply_to_item_id: 108712266249,
+        user_id: 1776064513,
+        timestamp_client: 1301001138871,
+        text: "Te szamár"
+      },
+      {
+        id: 108520376841,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 108405033481,
+        reply_to_item_id: 108712266249,
+        user_id: 1392609793,
+        timestamp_client: 1301001071896,
+        text: "it's a dog eat dog world..."
+      }
+      ],
+      liked_by_user_id: [
+      1392609793
+      ]
+    },
+    {
+      id: 108475288073,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 108405033481,
+      user_id: 1776064513,
+      timestamp_client: 1301000880997,
+      photo: 
+      {
+        photo_id: 108475288068
+      },
+      num_likes: 2,
+      liked_by_user_id: [
+      1392609793,
+      1776064513
+      ]
+    },
+    {
+      id: 108670323209,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 108405033481,
+      user_id: 1776064513,
+      timestamp_client: 1301000807813,
+      photo: 
+      {
+        photo_id: 108670323204
+      },
+      is_profile_photo: true,
+      num_likes: 1,
+      liked_by_user_id: [
+      1392609793
+      ]
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      1776064513,
+      1392609793
+      ],
+      counts: 
+      {
+        num_likes: 5,
+        num_photos: 5,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 5
+      },
+      timestamp_last_significant_update: 1301003563529,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      1392609793,
+      1776064513
+      ],
+      multilens_thread_view_contributor: [
+      1776064513,
+      1392609793
+      ],
+      non_multilens_thread_view_contributor: [
+      1776064513,
+      1392609793
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 1392609793,
+    name: "Peter",
+    profile_photo_id: 105772059140,
+    last_updated_millis: 1301003547074
+  },
+  {
+    id: 1776064513,
+    name: "Slim Shady",
+    profile_photo_id: 108670323204,
+    last_updated_millis: 1301000857653
+  }
+  ]
+}

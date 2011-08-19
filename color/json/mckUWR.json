@@ -1,0 +1,141 @@
+{
+  item: [
+  {
+    id: 108857910281,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 1417667585,
+    timestamp_client: 1301006701389,
+    child_item: [
+    {
+      id: 108606252041,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 108857910281,
+      user_id: 2387978753,
+      timestamp_client: 1301007000291,
+      photo: 
+      {
+        photo_id: 108606252036
+      },
+      num_likes: 1,
+      liked_by_user_id: [
+      1417667585
+      ]
+    },
+    {
+      id: 109022536713,
+      type: "EXPLICIT",
+      media: "VIDEO",
+      root_item_id: 108857910281,
+      user_id: 1417667585,
+      timestamp_client: 1301006990754,
+      video: 
+      {
+        video_id: 109022536709
+      },
+      comment_child_item: [
+      {
+        id: 108894610441,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 108857910281,
+        reply_to_item_id: 109022536713,
+        user_id: 1417667585,
+        timestamp_client: 1301007258084,
+        text: "At Third Degree."
+      }
+      ]
+    },
+    {
+      id: 108996322313,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 108857910281,
+      user_id: 2387978753,
+      timestamp_client: 1301006854295,
+      photo: 
+      {
+        photo_id: 108996322308
+      },
+      is_profile_photo: true,
+      num_likes: 1,
+      comment_child_item: [
+      {
+        id: 109006808073,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 108857910281,
+        reply_to_item_id: 108996322313,
+        user_id: 1417667585,
+        timestamp_client: 1301006890582,
+        text: "Wow, you look sweet."
+      }
+      ],
+      liked_by_user_id: [
+      1417667585
+      ]
+    },
+    {
+      id: 108585280521,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 108857910281,
+      user_id: 1417667585,
+      timestamp_client: 1301006727369,
+      photo: 
+      {
+        photo_id: 108585280516
+      }
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      1417667585,
+      2387978753
+      ],
+      counts: 
+      {
+        num_likes: 2,
+        num_photos: 3,
+        num_videos: 1,
+        num_texts: 0,
+        num_members: 4
+      },
+      timestamp_last_significant_update: 1301007000291,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      2387978753,
+      1417667585
+      ],
+      multilens_thread_view_contributor: [
+      1417667585,
+      2387978753
+      ],
+      non_multilens_thread_view_contributor: [
+      1417667585,
+      2387978753
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 2387978753,
+    name: "Mark",
+    profile_photo_id: 108996322308,
+    last_updated_millis: 1301006858325
+  },
+  {
+    id: 1417667585,
+    name: "David",
+    profile_photo_id: 105475204100,
+    last_updated_millis: 1301014125963
+  }
+  ]
+}

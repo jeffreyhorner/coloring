@@ -1,0 +1,107 @@
+{
+  item: [
+  {
+    id: 117929319177,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 3749878529,
+    timestamp_client: 1301125156745,
+    child_item: [
+    {
+      id: 117617892105,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 117929319177,
+      user_id: 3749878529,
+      timestamp_client: 1301125194585,
+      photo: 
+      {
+        photo_id: 117617892100
+      },
+      num_likes: 1,
+      comment_child_item: [
+      {
+        id: 117904153353,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 117929319177,
+        reply_to_item_id: 117617892105,
+        user_id: 3749878529,
+        timestamp_client: 1301125214243,
+        text: "Happy"
+      }
+      ],
+      liked_by_user_id: [
+      3749878529
+      ]
+    },
+    {
+      id: 117863258889,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 117929319177,
+      user_id: 3749878529,
+      timestamp_client: 1301125160489,
+      photo: 
+      {
+        photo_id: 117863258884
+      },
+      is_profile_photo: true,
+      num_likes: 1,
+      comment_child_item: [
+      {
+        id: 117864307465,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 117929319177,
+        reply_to_item_id: 117863258889,
+        user_id: 3749878529,
+        timestamp_client: 1301125322193,
+        text: "Houdini"
+      }
+      ],
+      liked_by_user_id: [
+      3749878529
+      ]
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      3749878529
+      ],
+      counts: 
+      {
+        num_likes: 2,
+        num_photos: 2,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 2
+      },
+      timestamp_last_significant_update: 1301125194585,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      3749878529
+      ],
+      multilens_thread_view_contributor: [
+      3749878529
+      ],
+      non_multilens_thread_view_contributor: [
+      3749878529
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 3749878529,
+    name: "Russ",
+    profile_photo_id: 117863258884,
+    last_updated_millis: 1301125259126
+  }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  item: [
+  {
+    id: 125978459913,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 4996906753,
+    timestamp_client: 1301323739069,
+    child_item: [
+    {
+      id: 125383917321,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 125978459913,
+      user_id: 4606688001,
+      timestamp_client: 1301324074907,
+      photo: 
+      {
+        photo_id: 125383917316
+      },
+      is_profile_photo: true
+    },
+    {
+      id: 125713170185,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 125978459913,
+      user_id: 4606688001,
+      timestamp_client: 1301323915138,
+      text: "@oddlittlegirl working on new social in Mondadory",
+      photo: 
+      {
+        photo_id: 125713170180
+      }
+    },
+    {
+      id: 125777133321,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 125978459913,
+      user_id: 4996906753,
+      timestamp_client: 1301323803438,
+      photo: 
+      {
+        photo_id: 125777133316
+      },
+      num_likes: 1,
+      comment_child_item: [
+      {
+        id: 125987897097,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 125978459913,
+        reply_to_item_id: 125777133321,
+        user_id: 4996906753,
+        timestamp_client: 1301323854475,
+        text: "@emvignapiano"
+      }
+      ],
+      liked_by_user_id: [
+      4996906753
+      ]
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      4996906753,
+      4606688001
+      ],
+      counts: 
+      {
+        num_likes: 1,
+        num_photos: 3,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 3
+      },
+      timestamp_last_significant_update: 1301324074907,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      4606688001,
+      4996906753
+      ],
+      multilens_thread_view_contributor: [
+      4996906753,
+      4606688001
+      ],
+      non_multilens_thread_view_contributor: [
+      4996906753,
+      4606688001
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 4996906753,
+    name: "Roberta",
+    profile_photo_id: 125754064644,
+    last_updated_millis: 1301323897564
+  },
+  {
+    id: 4606688001,
+    name: "Emilio",
+    profile_photo_id: 125383917316,
+    last_updated_millis: 1301324078078
+  }
+  ]
+}

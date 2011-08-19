@@ -1,0 +1,130 @@
+{
+  item: [
+  {
+    id: 130436268041,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 4989878273,
+    timestamp_client: 1301440012335,
+    child_item: [
+    {
+      id: 130858844169,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 130436268041,
+      user_id: 2271200001,
+      timestamp_client: 1301445243512,
+      photo: 
+      {
+        photo_id: 130858844164
+      }
+    },
+    {
+      id: 130427879433,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 130436268041,
+      user_id: 2271200001,
+      timestamp_client: 1301445063955,
+      photo: 
+      {
+        photo_id: 130427879428
+      },
+      comment_child_item: [
+      {
+        id: 130660663305,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 130436268041,
+        reply_to_item_id: 130427879433,
+        user_id: 2271200001,
+        timestamp_client: 1301445188739,
+        text: "I'd have to sadly say...a bit of a dick!"
+      }
+      ]
+    },
+    {
+      id: 130645983241,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 130436268041,
+      user_id: 2466436609,
+      timestamp_client: 1301440851652,
+      photo: 
+      {
+        photo_id: 130645983236
+      }
+    },
+    {
+      id: 130638643209,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 130436268041,
+      user_id: 1995628801,
+      timestamp_client: 1301440232655,
+      photo: 
+      {
+        photo_id: 130638643204
+      }
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      1995628801,
+      2466436609,
+      2271200001
+      ],
+      counts: 
+      {
+        num_likes: 0,
+        num_photos: 4,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 4
+      },
+      timestamp_last_significant_update: 1301445243512,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      2271200001,
+      2466436609,
+      1995628801
+      ],
+      multilens_thread_view_contributor: [
+      1995628801,
+      2466436609,
+      2271200001
+      ],
+      non_multilens_thread_view_contributor: [
+      1995628801,
+      2466436609,
+      2271200001
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 2466436609,
+    name: "Howard",
+    profile_photo_id: 109011195396,
+    last_updated_millis: 1301008852485
+  },
+  {
+    id: 1995628801,
+    name: "Manny",
+    profile_photo_id: 107271853572,
+    last_updated_millis: 1300987226333
+  },
+  {
+    id: 2271200001,
+    name: "Peter",
+    profile_photo_id: 108432359940,
+    last_updated_millis: 1301445212842
+  }
+  ]
+}

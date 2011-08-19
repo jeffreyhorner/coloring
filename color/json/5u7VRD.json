@@ -1,0 +1,74 @@
+{
+  item: [
+  {
+    id: 111158396169,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 2243855617,
+    timestamp_client: 1301030553687,
+    child_item: [
+    {
+      id: 111195096329,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 111158396169,
+      user_id: 2243855617,
+      timestamp_client: 1301030586901,
+      photo: 
+      {
+        photo_id: 111195096324
+      },
+      comment_child_item: [
+      {
+        id: 111251719433,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 111158396169,
+        reply_to_item_id: 111195096329,
+        user_id: 2243855617,
+        timestamp_client: 1301031523124,
+        text: "Do u know this dude and where to find him in #yyj"
+      }
+      ]
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      2243855617
+      ],
+      counts: 
+      {
+        num_likes: 0,
+        num_photos: 1,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 1
+      },
+      timestamp_last_significant_update: 1301030586901,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      2243855617
+      ],
+      multilens_thread_view_contributor: [
+      2243855617
+      ],
+      non_multilens_thread_view_contributor: [
+      2243855617
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 2243855617,
+    name: "Scott",
+    profile_photo_id: 108497110276,
+    last_updated_millis: 1301066521527
+  }
+  ]
+}

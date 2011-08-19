@@ -1,0 +1,103 @@
+{
+  item: [
+  {
+    id: 108090119433,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 2056017153,
+    timestamp_client: 1300996081902,
+    child_item: [
+    {
+      id: 108218045705,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 108090119433,
+      user_id: 2056017153,
+      timestamp_client: 1300997198253,
+      photo: 
+      {
+        photo_id: 108218045700
+      },
+      num_likes: 1,
+      comment_child_item: [
+      {
+        id: 108356457737,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 108090119433,
+        reply_to_item_id: 108218045705,
+        user_id: 2056017153,
+        timestamp_client: 1300997216700,
+        text: "Yo!"
+      }
+      ],
+      liked_by_user_id: [
+      2056017153
+      ]
+    },
+    {
+      id: 107966387465,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 108090119433,
+      user_id: 2056017153,
+      timestamp_client: 1300996848326,
+      photo: 
+      {
+        photo_id: 107966387460
+      }
+    },
+    {
+      id: 108191831305,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 108090119433,
+      user_id: 2056017153,
+      timestamp_client: 1300996076662,
+      photo: 
+      {
+        photo_id: 108191831300
+      },
+      is_profile_photo: true
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      2056017153
+      ],
+      counts: 
+      {
+        num_likes: 1,
+        num_photos: 3,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 3
+      },
+      timestamp_last_significant_update: 1300997198253,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      2056017153
+      ],
+      multilens_thread_view_contributor: [
+      2056017153
+      ],
+      non_multilens_thread_view_contributor: [
+      2056017153
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 2056017153,
+    name: "Marquinhos",
+    profile_photo_id: 108191831300,
+    last_updated_millis: 1301051112978
+  }
+  ]
+}

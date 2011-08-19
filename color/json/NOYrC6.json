@@ -1,0 +1,99 @@
+{
+  item: [
+  {
+    id: 117407476233,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 3410487809,
+    timestamp_client: 1301120620770,
+    child_item: [
+    {
+      id: 117280598537,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 117407476233,
+      user_id: 3410487809,
+      timestamp_client: 1301120855838,
+      photo: 
+      {
+        photo_id: 117280598532
+      },
+      comment_child_item: [
+      {
+        id: 117273258505,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 117407476233,
+        reply_to_item_id: 117280598537,
+        user_id: 3410487809,
+        timestamp_client: 1301121553115,
+        text: "mac派です。"
+      }
+      ]
+    },
+    {
+      id: 117162109449,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 117407476233,
+      user_id: 3410487809,
+      timestamp_client: 1301120683155,
+      photo: 
+      {
+        photo_id: 117162109444
+      },
+      is_profile_photo: true,
+      comment_child_item: [
+      {
+        id: 117496605193,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 117407476233,
+        reply_to_item_id: 117162109449,
+        user_id: 3410487809,
+        timestamp_client: 1301121518592,
+        text: "音楽が好き。演奏したり、作ったり。"
+      }
+      ]
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      3410487809
+      ],
+      counts: 
+      {
+        num_likes: 0,
+        num_photos: 2,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 2
+      },
+      timestamp_last_significant_update: 1301120855838,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      3410487809
+      ],
+      multilens_thread_view_contributor: [
+      3410487809
+      ],
+      non_multilens_thread_view_contributor: [
+      3410487809
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 3410487809,
+    name: "Synclavier",
+    profile_photo_id: 117162109444,
+    last_updated_millis: 1301124434783
+  }
+  ]
+}

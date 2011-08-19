@@ -1,0 +1,107 @@
+{
+  item: [
+  {
+    id: 113219961865,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 3106898945,
+    timestamp_client: 1301073692760,
+    child_item: [
+    {
+      id: 113332159497,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 113219961865,
+      user_id: 3106898945,
+      timestamp_client: 1301073748076,
+      photo: 
+      {
+        photo_id: 113332159492
+      },
+      num_likes: 1,
+      comment_child_item: [
+      {
+        id: 113151804425,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 113219961865,
+        reply_to_item_id: 113332159497,
+        user_id: 3106898945,
+        timestamp_client: 1301073782829,
+        text: "Lecker"
+      }
+      ],
+      liked_by_user_id: [
+      3106898945
+      ]
+    },
+    {
+      id: 113321673737,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 113219961865,
+      user_id: 3106898945,
+      timestamp_client: 1301073697488,
+      photo: 
+      {
+        photo_id: 113321673732
+      },
+      is_profile_photo: true,
+      num_likes: 1,
+      comment_child_item: [
+      {
+        id: 112791094281,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 113219961865,
+        reply_to_item_id: 113321673737,
+        user_id: 3106898945,
+        timestamp_client: 1301073768667,
+        text: "Yeah"
+      }
+      ],
+      liked_by_user_id: [
+      3106898945
+      ]
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      3106898945
+      ],
+      counts: 
+      {
+        num_likes: 2,
+        num_photos: 2,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 2
+      },
+      timestamp_last_significant_update: 1301073748076,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      3106898945
+      ],
+      multilens_thread_view_contributor: [
+      3106898945
+      ],
+      non_multilens_thread_view_contributor: [
+      3106898945
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 3106898945,
+    name: "Bastian",
+    profile_photo_id: 113321673732,
+    last_updated_millis: 1301074705252
+  }
+  ]
+}

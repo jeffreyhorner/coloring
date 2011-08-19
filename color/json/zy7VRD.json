@@ -1,0 +1,165 @@
+{
+  item: [
+  {
+    id: 112302580233,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 2101436929,
+    timestamp_client: 1301054494652,
+    child_item: [
+    {
+      id: 112433652233,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 112302580233,
+      user_id: 2101436929,
+      timestamp_client: 1301054797815,
+      photo: 
+      {
+        photo_id: 112433652228
+      },
+      num_likes: 1,
+      liked_by_user_id: [
+      2787457537
+      ]
+    },
+    {
+      id: 111949210121,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 112302580233,
+      user_id: 2787457537,
+      timestamp_client: 1301054758826,
+      photo: 
+      {
+        photo_id: 111949210116
+      },
+      comment_child_item: [
+      {
+        id: 112208208393,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 112302580233,
+        reply_to_item_id: 111949210121,
+        user_id: 2787457537,
+        timestamp_client: 1301054900512,
+        text: "Gros ouin concentré"
+      }
+      ]
+    },
+    {
+      id: 112414777865,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 112302580233,
+      user_id: 2101436929,
+      timestamp_client: 1301054751391,
+      photo: 
+      {
+        photo_id: 112414777860
+      },
+      comment_child_item: [
+      {
+        id: 112363397641,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 112302580233,
+        reply_to_item_id: 112414777865,
+        user_id: 2101436929,
+        timestamp_client: 1301054892157,
+        text: "Pascal découvre Color"
+      }
+      ]
+    },
+    {
+      id: 112263782921,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 112302580233,
+      user_id: 2787457537,
+      timestamp_client: 1301054705741,
+      photo: 
+      {
+        photo_id: 112263782916
+      },
+      is_profile_photo: true
+    },
+    {
+      id: 112269025801,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 112302580233,
+      user_id: 2101436929,
+      timestamp_client: 1301054573480,
+      photo: 
+      {
+        photo_id: 112269025796
+      },
+      num_likes: 1,
+      comment_child_item: [
+      {
+        id: 112476643849,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 112302580233,
+        reply_to_item_id: 112269025801,
+        user_id: 2101436929,
+        timestamp_client: 1301054960371,
+        text: "\"mais c'est quoi ce truc ?\" se demande-t-il..."
+      }
+      ],
+      liked_by_user_id: [
+      2101436929
+      ]
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      2787457537,
+      2101436929
+      ],
+      counts: 
+      {
+        num_likes: 2,
+        num_photos: 5,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 5
+      },
+      timestamp_last_significant_update: 1301054797815,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      2101436929,
+      2787457537
+      ],
+      multilens_thread_view_contributor: [
+      2787457537,
+      2101436929
+      ],
+      non_multilens_thread_view_contributor: [
+      2787457537,
+      2101436929
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 2787457537,
+    name: "Pascal",
+    profile_photo_id: 112263782916,
+    last_updated_millis: 1301055154559
+  },
+  {
+    id: 2101436929,
+    name: "Nico",
+    profile_photo_id: 108406071812,
+    last_updated_millis: 1301055314403
+  }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  item: [
+  {
+    id: 121260123657,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 4862944769,
+    timestamp_client: 1301197311119,
+    child_item: [
+    {
+      id: 121421604361,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 121260123657,
+      user_id: 4872813825,
+      timestamp_client: 1301197473039,
+      text: "Done!",
+      photo: 
+      {
+        photo_id: 121421604356
+      },
+      comment_child_item: [
+      {
+        id: 121251735049,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 121260123657,
+        reply_to_item_id: 121421604361,
+        user_id: 4872813825,
+        timestamp_client: 1301197632824,
+        text: "Weak sauce"
+      }
+      ]
+    },
+    {
+      id: 121271657993,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 121260123657,
+      user_id: 4862944769,
+      timestamp_client: 1301197461964,
+      photo: 
+      {
+        photo_id: 121271657988
+      }
+    },
+    {
+      id: 121350301193,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 121260123657,
+      user_id: 4872813825,
+      timestamp_client: 1301197350898,
+      photo: 
+      {
+        photo_id: 121350301188
+      },
+      num_likes: 2,
+      liked_by_user_id: [
+      4872813825,
+      4862944769
+      ]
+    },
+    {
+      id: 121291580937,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 121260123657,
+      user_id: 4872813825,
+      timestamp_client: 1301197316796,
+      photo: 
+      {
+        photo_id: 121291580932
+      },
+      is_profile_photo: true,
+      num_likes: 1,
+      comment_child_item: [
+      {
+        id: 121426847241,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 121260123657,
+        reply_to_item_id: 121291580937,
+        user_id: 4862944769,
+        timestamp_client: 1301197582686,
+        text: "Nice face"
+      }
+      ],
+      liked_by_user_id: [
+      4862944769
+      ]
+    },
+    {
+      id: 121155266057,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 121260123657,
+      user_id: 4862944769,
+      timestamp_client: 1301197310883,
+      photo: 
+      {
+        photo_id: 121155266052
+      },
+      is_profile_photo: true,
+      num_likes: 1,
+      liked_by_user_id: [
+      4872813825
+      ]
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      4862944769,
+      4872813825
+      ],
+      counts: 
+      {
+        num_likes: 4,
+        num_photos: 5,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 5
+      },
+      timestamp_last_significant_update: 1301197473039,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      4872813825,
+      4862944769
+      ],
+      multilens_thread_view_contributor: [
+      4862944769,
+      4872813825
+      ],
+      non_multilens_thread_view_contributor: [
+      4862944769,
+      4872813825
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 4872813825,
+    name: "Carny",
+    profile_photo_id: 121291580932,
+    last_updated_millis: 1301197319435
+  },
+  {
+    id: 4862944769,
+    name: "Shirleyc",
+    profile_photo_id: 121155266052,
+    last_updated_millis: 1301197654668
+  }
+  ]
+}

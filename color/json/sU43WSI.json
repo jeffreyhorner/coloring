@@ -1,0 +1,103 @@
+{
+  item: [
+  {
+    id: 125522074121,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 5626845697,
+    timestamp_client: 1301347506301,
+    child_item: [
+    {
+      id: 125562968585,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 125522074121,
+      user_id: 5626845697,
+      timestamp_client: 1301347631730,
+      photo: 
+      {
+        photo_id: 125562968580
+      }
+    },
+    {
+      id: 125383662089,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 125522074121,
+      user_id: 5626845697,
+      timestamp_client: 1301347563062,
+      photo: 
+      {
+        photo_id: 125383662084
+      }
+    },
+    {
+      id: 125432945161,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 125522074121,
+      user_id: 5626845697,
+      timestamp_client: 1301347493496,
+      photo: 
+      {
+        photo_id: 125432945156
+      },
+      is_profile_photo: true,
+      num_likes: 1,
+      comment_child_item: [
+      {
+        id: 125435042313,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 125522074121,
+        reply_to_item_id: 125432945161,
+        user_id: 5626845697,
+        timestamp_client: 1301347529900,
+        text: "Menudo careto"
+      }
+      ],
+      liked_by_user_id: [
+      5626845697
+      ]
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      5626845697
+      ],
+      counts: 
+      {
+        num_likes: 1,
+        num_photos: 3,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 3
+      },
+      timestamp_last_significant_update: 1301347631730,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      5626845697
+      ],
+      multilens_thread_view_contributor: [
+      5626845697
+      ],
+      non_multilens_thread_view_contributor: [
+      5626845697
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 5626845697,
+    name: "Nestor",
+    profile_photo_id: 125432945156,
+    last_updated_millis: 1301347735298
+  }
+  ]
+}

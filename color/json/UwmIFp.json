@@ -1,0 +1,105 @@
+{
+  item: [
+  {
+    id: 122162649865,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 3415612161,
+    timestamp_client: 1301195736564,
+    child_item: [
+    {
+      id: 122230807305,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 122162649865,
+      user_id: 3415612161,
+      timestamp_client: 1301196136616,
+      photo: 
+      {
+        photo_id: 122230807300
+      },
+      num_likes: 1,
+      comment_child_item: [
+      {
+        id: 122739366665,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 122162649865,
+        reply_to_item_id: 122230807305,
+        user_id: 3415612161,
+        timestamp_client: 1301207394121,
+        text: "Pioneers at work in NZ"
+      }
+      ],
+      liked_by_user_id: [
+      3415612161
+      ]
+    },
+    {
+      id: 122218224393,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 122162649865,
+      user_id: 4892833025,
+      timestamp_client: 1301196099469,
+      photo: 
+      {
+        photo_id: 122218224388
+      },
+      is_profile_photo: true,
+      num_likes: 1,
+      liked_by_user_id: [
+      3415612161
+      ]
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      4892833025,
+      3415612161
+      ],
+      counts: 
+      {
+        num_likes: 2,
+        num_photos: 2,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 2
+      },
+      timestamp_last_significant_update: 1301196136616,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      3415612161,
+      4892833025
+      ],
+      multilens_thread_view_contributor: [
+      4892833025,
+      3415612161
+      ],
+      non_multilens_thread_view_contributor: [
+      4892833025,
+      3415612161
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 3415612161,
+    name: "Shane",
+    profile_photo_id: 115981294340,
+    last_updated_millis: 1301207653662
+  },
+  {
+    id: 4892833025,
+    name: "Philip",
+    profile_photo_id: 122218224388,
+    last_updated_millis: 1301196101402
+  }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  item: [
+  {
+    id: 106339575305,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 1836393985,
+    timestamp_client: 1300971053498,
+    child_item: [
+    {
+      id: 106152928777,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 106339575305,
+      user_id: 1836393985,
+      timestamp_client: 1300971057615,
+      photo: 
+      {
+        photo_id: 106152928772
+      },
+      is_profile_photo: true,
+      num_likes: 1,
+      comment_child_item: [
+      {
+        id: 107530757641,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 106339575305,
+        reply_to_item_id: 106152928777,
+        user_id: 1836393985,
+        timestamp_client: 1300990580654,
+        text: "First pic."
+      }
+      ],
+      liked_by_user_id: [
+      1836393985
+      ]
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      1836393985
+      ],
+      counts: 
+      {
+        num_likes: 1,
+        num_photos: 1,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 1
+      },
+      timestamp_last_significant_update: 1300971057615,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      1836393985
+      ],
+      multilens_thread_view_contributor: [
+      1836393985
+      ],
+      non_multilens_thread_view_contributor: [
+      1836393985
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 1836393985,
+    name: "Aziz",
+    profile_photo_id: 106152928772,
+    last_updated_millis: 1301008698883
+  }
+  ]
+}

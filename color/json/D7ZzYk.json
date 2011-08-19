@@ -1,0 +1,91 @@
+{
+  item: [
+  {
+    id: 109281489929,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 2147431425,
+    timestamp_client: 1300995449261,
+    child_item: [
+    {
+      id: 109368521737,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 109281489929,
+      user_id: 2147431425,
+      timestamp_client: 1300995562990,
+      photo: 
+      {
+        photo_id: 109368521732
+      },
+      num_likes: 1,
+      comment_child_item: [
+      {
+        id: 109338113033,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 109281489929,
+        reply_to_item_id: 109368521737,
+        user_id: 2147431425,
+        timestamp_client: 1300995597099,
+        text: "Super secret candy stash."
+      }
+      ],
+      liked_by_user_id: [
+      2147431425
+      ]
+    },
+    {
+      id: 109243741193,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 109281489929,
+      user_id: 2147431425,
+      timestamp_client: 1300995437452,
+      photo: 
+      {
+        photo_id: 109243741188
+      },
+      is_profile_photo: true
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      2147431425
+      ],
+      counts: 
+      {
+        num_likes: 1,
+        num_photos: 2,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 2
+      },
+      timestamp_last_significant_update: 1300995562990,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      2147431425
+      ],
+      multilens_thread_view_contributor: [
+      2147431425
+      ],
+      non_multilens_thread_view_contributor: [
+      2147431425
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 2147431425,
+    name: "Jenny",
+    profile_photo_id: 109243741188,
+    last_updated_millis: 1301003655586
+  }
+  ]
+}

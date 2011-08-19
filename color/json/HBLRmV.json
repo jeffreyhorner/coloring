@@ -1,0 +1,91 @@
+{
+  item: [
+  {
+    id: 116504564233,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 3569783297,
+    timestamp_client: 1301109539036,
+    child_item: [
+    {
+      id: 116462621193,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 116504564233,
+      user_id: 3569783297,
+      timestamp_client: 1301109743330,
+      photo: 
+      {
+        photo_id: 116462621188
+      },
+      num_likes: 1,
+      comment_child_item: [
+      {
+        id: 116584256009,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 116504564233,
+        reply_to_item_id: 116462621193,
+        user_id: 3569783297,
+        timestamp_client: 1301109798270,
+        text: "test"
+      }
+      ],
+      liked_by_user_id: [
+      3569783297
+      ]
+    },
+    {
+      id: 116505612809,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 116504564233,
+      user_id: 3569783297,
+      timestamp_client: 1301109533886,
+      photo: 
+      {
+        photo_id: 116505612804
+      },
+      is_profile_photo: true
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      3569783297
+      ],
+      counts: 
+      {
+        num_likes: 1,
+        num_photos: 2,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 2
+      },
+      timestamp_last_significant_update: 1301109743330,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      3569783297
+      ],
+      multilens_thread_view_contributor: [
+      3569783297
+      ],
+      non_multilens_thread_view_contributor: [
+      3569783297
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 3569783297,
+    name: "malusgenome",
+    profile_photo_id: 116505612804,
+    last_updated_millis: 1301109924395
+  }
+  ]
+}

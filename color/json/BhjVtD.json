@@ -1,0 +1,149 @@
+{
+  item: [
+  {
+    id: 112041841929,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 1537660161,
+    timestamp_client: 1301051405285,
+    child_item: [
+    {
+      id: 112047084809,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 112041841929,
+      user_id: 1537660161,
+      timestamp_client: 1301051631338,
+      photo: 
+      {
+        photo_id: 112047084804
+      }
+    },
+    {
+      id: 112037647625,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 112041841929,
+      user_id: 2782445825,
+      timestamp_client: 1301051625966,
+      photo: 
+      {
+        photo_id: 112037647620
+      },
+      num_likes: 2,
+      comment_child_item: [
+      {
+        id: 111751386377,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 112041841929,
+        reply_to_item_id: 112037647625,
+        user_id: 1537660161,
+        timestamp_client: 1301051686675,
+        text: "Thnx"
+      },
+      {
+        id: 111689520393,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 112041841929,
+        reply_to_item_id: 112037647625,
+        user_id: 2782445825,
+        timestamp_client: 1301051661507,
+        text: "Nice view"
+      }
+      ],
+      liked_by_user_id: [
+      1537660161,
+      2782445825
+      ]
+    },
+    {
+      id: 111791232265,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 112041841929,
+      user_id: 2782445825,
+      timestamp_client: 1301051570906,
+      photo: 
+      {
+        photo_id: 111791232260
+      }
+    },
+    {
+      id: 112032404745,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 112041841929,
+      user_id: 1537660161,
+      timestamp_client: 1301051437197,
+      text: "Test",
+      photo: 
+      {
+        photo_id: 112032404740
+      }
+    },
+    {
+      id: 111804863753,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 112041841929,
+      user_id: 2782445825,
+      timestamp_client: 1301051346681,
+      photo: 
+      {
+        photo_id: 111804863748
+      },
+      is_profile_photo: true
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      2782445825,
+      1537660161
+      ],
+      counts: 
+      {
+        num_likes: 2,
+        num_photos: 5,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 5
+      },
+      timestamp_last_significant_update: 1301051631338,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      1537660161,
+      2782445825
+      ],
+      multilens_thread_view_contributor: [
+      2782445825,
+      1537660161
+      ],
+      non_multilens_thread_view_contributor: [
+      2782445825,
+      1537660161
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 2782445825,
+    name: "Rob",
+    profile_photo_id: 111804863748,
+    last_updated_millis: 1301051553729
+  },
+  {
+    id: 1537660161,
+    name: "Koen",
+    profile_photo_id: 105685374212,
+    last_updated_millis: 1301051717708
+  }
+  ]
+}

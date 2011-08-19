@@ -1,0 +1,126 @@
+{
+  item: [
+  {
+    id: 107407168265,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 1811370753,
+    timestamp_client: 1300985329498,
+    child_item: [
+    {
+      id: 107413459721,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 107407168265,
+      user_id: 1811370753,
+      timestamp_client: 1300986160199,
+      photo: 
+      {
+        photo_id: 107413459716
+      }
+    },
+    {
+      id: 107044360969,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 107407168265,
+      user_id: 2001526017,
+      timestamp_client: 1300985486974,
+      photo: 
+      {
+        photo_id: 107044360964
+      },
+      is_profile_photo: true,
+      comment_child_item: [
+      {
+        id: 107288679177,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 107407168265,
+        reply_to_item_id: 107044360969,
+        user_id: 1811370753,
+        timestamp_client: 1300986530305,
+        text: "You look kind of angry."
+      }
+      ]
+    },
+    {
+      id: 107085255433,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 107407168265,
+      user_id: 1811370753,
+      timestamp_client: 1300985386362,
+      photo: 
+      {
+        photo_id: 107085255428
+      },
+      num_likes: 1,
+      liked_by_user_id: [
+      1811370753
+      ]
+    },
+    {
+      id: 107211084553,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 107407168265,
+      user_id: 1811370753,
+      timestamp_client: 1300985328232,
+      photo: 
+      {
+        photo_id: 107211084548
+      },
+      is_profile_photo: true
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      2001526017,
+      1811370753
+      ],
+      counts: 
+      {
+        num_likes: 1,
+        num_photos: 4,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 4
+      },
+      timestamp_last_significant_update: 1300986160199,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      1811370753,
+      2001526017
+      ],
+      multilens_thread_view_contributor: [
+      2001526017,
+      1811370753
+      ],
+      non_multilens_thread_view_contributor: [
+      2001526017,
+      1811370753
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 1811370753,
+    name: "Shelby",
+    profile_photo_id: 107211084548,
+    last_updated_millis: 1300995448784
+  },
+  {
+    id: 2001526017,
+    name: "Steve",
+    profile_photo_id: 107044360964,
+    last_updated_millis: 1300985495360
+  }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  item: [
+  {
+    id: 107185972233,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 1333273601,
+    timestamp_client: 1300986401348,
+    child_item: [
+    {
+      id: 107210089481,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 107185972233,
+      user_id: 1953888769,
+      timestamp_client: 1300986686153,
+      photo: 
+      {
+        photo_id: 107210089476
+      },
+      comment_child_item: [
+      {
+        id: 107541439497,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 107185972233,
+        reply_to_item_id: 107210089481,
+        user_id: 1953888769,
+        timestamp_client: 1300990259263,
+        text: "Yes you guessed correct!"
+      },
+      {
+        id: 107289781257,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 107185972233,
+        reply_to_item_id: 107210089481,
+        user_id: 1963753729,
+        timestamp_client: 1300989599400,
+        text: "The Starbucks!"
+      }
+      ]
+    },
+    {
+      id: 107194360841,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 107185972233,
+      user_id: 1953888769,
+      timestamp_client: 1300986634976,
+      photo: 
+      {
+        photo_id: 107194360836
+      },
+      is_profile_photo: true
+    },
+    {
+      id: 107081114633,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 107185972233,
+      user_id: 2057355777,
+      timestamp_client: 1300986607837,
+      photo: 
+      {
+        photo_id: 107081114628
+      },
+      is_profile_photo: true
+    },
+    {
+      id: 107058045961,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 107185972233,
+      is_deleted: true,
+      user_id: 1963753729,
+      timestamp_client: 1300986569108,
+      photo: 
+      {
+        photo_id: 107058045956
+      },
+      is_profile_photo: true,
+      comment_child_item: [
+      {
+        id: 107216380937,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 107185972233,
+        reply_to_item_id: 107058045961,
+        user_id: 1953888769,
+        timestamp_client: 1300990133717,
+        text: "Where are you? Sitting in Starbucks on state street"
+      },
+      {
+        id: 107507885065,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 107185972233,
+        reply_to_item_id: 107058045961,
+        user_id: 1963753729,
+        timestamp_client: 1300989618483,
+        text: "My office on the 9th floor"
+      },
+      {
+        id: 107149272073,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 107185972233,
+        reply_to_item_id: 107058045961,
+        user_id: 1953888769,
+        timestamp_client: 1300986725508,
+        text: "Where is this!"
+      }
+      ]
+    },
+    {
+      id: 107122009097,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 107185972233,
+      user_id: 1333273601,
+      timestamp_client: 1300986425435,
+      photo: 
+      {
+        photo_id: 107122009092
+      },
+      comment_child_item: [
+      {
+        id: 107312849929,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 107185972233,
+        reply_to_item_id: 107122009097,
+        user_id: 1953888769,
+        timestamp_client: 1300986745261,
+        text: "Come on you can do better than that!"
+      }
+      ]
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      1333273601,
+      2057355777,
+      1953888769
+      ],
+      counts: 
+      {
+        num_likes: 0,
+        num_photos: 4,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 4
+      },
+      timestamp_last_significant_update: 1300986686153,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      1953888769,
+      2057355777,
+      1333273601
+      ],
+      multilens_thread_view_contributor: [
+      1333273601,
+      2057355777,
+      1953888769
+      ],
+      non_multilens_thread_view_contributor: [
+      1333273601,
+      2057355777,
+      1953888769
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 2057355777,
+    name: "Johnny9Toes",
+    profile_photo_id: 107081114628,
+    last_updated_millis: 1300986626583
+  },
+  {
+    id: 1953888769,
+    name: "Kiratiana",
+    profile_photo_id: 107194360836,
+    last_updated_millis: 1301001944652
+  },
+  {
+    id: 1333273601,
+    name: "Mike",
+    profile_photo_id: 105300632580,
+    last_updated_millis: 1300943005303
+  }
+  ]
+}

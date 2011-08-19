@@ -1,0 +1,103 @@
+{
+  item: [
+  {
+    id: 123146879241,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 4983898369,
+    timestamp_client: 1301250388221,
+    child_item: [
+    {
+      id: 123213988105,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 123146879241,
+      user_id: 5084916481,
+      timestamp_client: 1301250936470,
+      photo: 
+      {
+        photo_id: 123213988100
+      },
+      is_profile_photo: true
+    },
+    {
+      id: 123158413577,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 123146879241,
+      is_deleted: true,
+      user_id: 4983898369,
+      timestamp_client: 1301250431130,
+      photo: 
+      {
+        photo_id: 123158413572
+      }
+    },
+    {
+      id: 123187773705,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 123146879241,
+      user_id: 4983898369,
+      timestamp_client: 1301250391420,
+      photo: 
+      {
+        photo_id: 123187773700
+      },
+      is_profile_photo: true,
+      num_likes: 1,
+      liked_by_user_id: [
+      5084916481
+      ]
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      4983898369,
+      5084916481
+      ],
+      counts: 
+      {
+        num_likes: 1,
+        num_photos: 2,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 2
+      },
+      timestamp_last_significant_update: 1301250936470,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      5084916481,
+      4983898369
+      ],
+      multilens_thread_view_contributor: [
+      4983898369,
+      5084916481
+      ],
+      non_multilens_thread_view_contributor: [
+      4983898369,
+      5084916481
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 5084916481,
+    name: "Nick",
+    profile_photo_id: 123213988100,
+    last_updated_millis: 1301251176255
+  },
+  {
+    id: 4983898369,
+    name: "Alena",
+    profile_photo_id: 123187773700,
+    last_updated_millis: 1301250393987
+  }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  item: [
+  {
+    id: 124169286409,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 1154544385,
+    timestamp_client: 1301265061130,
+    child_item: [
+    {
+      id: 124111614729,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 124169286409,
+      user_id: 1154544385,
+      timestamp_client: 1301265176574,
+      photo: 
+      {
+        photo_id: 124111614724
+      },
+      num_likes: 1,
+      comment_child_item: [
+      {
+        id: 123569500937,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 124169286409,
+        reply_to_item_id: 124111614729,
+        user_id: 4922288897,
+        timestamp_client: 1301265290846,
+        text: "Niiiiiiice.  Reeeeed."
+      }
+      ],
+      liked_by_user_id: [
+      4922288897
+      ]
+    },
+    {
+      id: 124082254601,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 124169286409,
+      user_id: 4922288897,
+      timestamp_client: 1301265173111,
+      photo: 
+      {
+        photo_id: 124082254596
+      }
+    },
+    {
+      id: 123416408841,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 124169286409,
+      user_id: 4922288897,
+      timestamp_client: 1301265117071,
+      photo: 
+      {
+        photo_id: 123416408836
+      },
+      is_profile_photo: true
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      4922288897,
+      1154544385
+      ],
+      counts: 
+      {
+        num_likes: 1,
+        num_photos: 3,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 3
+      },
+      timestamp_last_significant_update: 1301265176574,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      4922288897,
+      1154544385
+      ],
+      multilens_thread_view_contributor: [
+      4922288897,
+      1154544385
+      ],
+      non_multilens_thread_view_contributor: [
+      4922288897,
+      1154544385
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 1154544385,
+    name: "Danyal",
+    profile_photo_id: 105063183108,
+    last_updated_millis: 1301008956855
+  },
+  {
+    id: 4922288897,
+    name: "Samir",
+    profile_photo_id: 123416408836,
+    last_updated_millis: 1301265310155
+  }
+  ]
+}

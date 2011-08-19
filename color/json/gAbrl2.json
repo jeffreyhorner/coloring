@@ -1,0 +1,144 @@
+{
+  item: [
+  {
+    id: 106017172489,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 1659743233,
+    timestamp_client: 1300975111534,
+    child_item: [
+    {
+      id: 106563480585,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 106017172489,
+      user_id: 1585781505,
+      timestamp_client: 1300975987929,
+      photo: 
+      {
+        photo_id: 106563480580
+      },
+      is_profile_photo: true
+    },
+    {
+      id: 106534120457,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 106017172489,
+      user_id: 1941453569,
+      timestamp_client: 1300975489093,
+      photo: 
+      {
+        photo_id: 106534120452
+      },
+      is_profile_photo: true,
+      comment_child_item: [
+      {
+        id: 106595986441,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 106017172489,
+        reply_to_item_id: 106534120457,
+        user_id: 1941453569,
+        timestamp_client: 1300976553956,
+        text: "Office"
+      }
+      ]
+    },
+    {
+      id: 105996200969,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 106017172489,
+      user_id: 1916683777,
+      timestamp_client: 1300975486293,
+      photo: 
+      {
+        photo_id: 105996200964
+      },
+      is_profile_photo: true
+    },
+    {
+      id: 106375785481,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 106017172489,
+      user_id: 1659743233,
+      timestamp_client: 1300975106861,
+      photo: 
+      {
+        photo_id: 106375785476
+      },
+      is_profile_photo: true
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      1659743233,
+      1916683777,
+      1941453569,
+      1585781505
+      ],
+      counts: 
+      {
+        num_likes: 0,
+        num_photos: 4,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 4
+      },
+      timestamp_last_significant_update: 1300975987929,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      1585781505,
+      1941453569,
+      1916683777,
+      1659743233
+      ],
+      multilens_thread_view_contributor: [
+      1659743233,
+      1916683777,
+      1941453569,
+      1585781505
+      ],
+      non_multilens_thread_view_contributor: [
+      1659743233,
+      1916683777,
+      1941453569,
+      1585781505
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 1659743233,
+    name: "Rsteeze",
+    profile_photo_id: 106375785476,
+    last_updated_millis: 1300975120551
+  },
+  {
+    id: 1941453569,
+    name: "Pedro",
+    profile_photo_id: 106534120452,
+    last_updated_millis: 1300976381975
+  },
+  {
+    id: 1585781505,
+    name: "Ashley",
+    profile_photo_id: 106563480580,
+    last_updated_millis: 1300976002222
+  },
+  {
+    id: 1916683777,
+    name: "clark",
+    profile_photo_id: 105996200964,
+    last_updated_millis: 1300975497433
+  }
+  ]
+}

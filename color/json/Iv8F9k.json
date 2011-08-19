@@ -1,0 +1,142 @@
+{
+  item: [
+  {
+    id: 107424500233,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 2084555265,
+    timestamp_client: 1300986195525,
+    child_item: [
+    {
+      id: 107290282505,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 107424500233,
+      user_id: 1741348353,
+      timestamp_client: 1300986659494,
+      photo: 
+      {
+        photo_id: 107290282500
+      }
+    },
+    {
+      id: 107403528713,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 107424500233,
+      user_id: 1741348353,
+      timestamp_client: 1300986399995,
+      photo: 
+      {
+        photo_id: 107403528708
+      },
+      is_profile_photo: true,
+      num_likes: 1,
+      liked_by_user_id: [
+      2084555265
+      ]
+    },
+    {
+      id: 107123558921,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 107424500233,
+      user_id: 2084555265,
+      timestamp_client: 1300986388228,
+      photo: 
+      {
+        photo_id: 107123558916
+      },
+      num_likes: 1,
+      liked_by_user_id: [
+      1741348353
+      ]
+    },
+    {
+      id: 107071130121,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 107424500233,
+      user_id: 2084555265,
+      timestamp_client: 1300986251278,
+      photo: 
+      {
+        photo_id: 107071130116
+      }
+    },
+    {
+      id: 107351099913,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 107424500233,
+      user_id: 2084555265,
+      timestamp_client: 1300986186190,
+      photo: 
+      {
+        photo_id: 107351099908
+      },
+      is_profile_photo: true,
+      comment_child_item: [
+      {
+        id: 107377314313,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 107424500233,
+        reply_to_item_id: 107351099913,
+        user_id: 2084555265,
+        timestamp_client: 1300986269916,
+        text: "Kickass"
+      }
+      ]
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      2084555265,
+      1741348353
+      ],
+      counts: 
+      {
+        num_likes: 2,
+        num_photos: 5,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 5
+      },
+      timestamp_last_significant_update: 1300986659494,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      1741348353,
+      2084555265
+      ],
+      multilens_thread_view_contributor: [
+      2084555265,
+      1741348353
+      ],
+      non_multilens_thread_view_contributor: [
+      2084555265,
+      1741348353
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 2084555265,
+    name: "Marc",
+    profile_photo_id: 107351099908,
+    last_updated_millis: 1301004839143
+  },
+  {
+    id: 1741348353,
+    name: "Drew",
+    profile_photo_id: 107403528708,
+    last_updated_millis: 1300986405483
+  }
+  ]
+}

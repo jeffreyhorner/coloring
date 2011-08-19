@@ -1,0 +1,123 @@
+{
+  item: [
+  {
+    id: 106526956809,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 1206934785,
+    timestamp_client: 1300975689882,
+    child_item: [
+    {
+      id: 106514373897,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 106526956809,
+      is_deleted: true,
+      user_id: 1750000897,
+      timestamp_client: 1300976119466,
+      photo: 
+      {
+        photo_id: 106514373892
+      },
+      is_profile_photo: true
+    },
+    {
+      id: 106814266633,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 106526956809,
+      user_id: 1739522305,
+      timestamp_client: 1300976019408,
+      photo: 
+      {
+        photo_id: 106814266628
+      }
+    },
+    {
+      id: 106798537993,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 106526956809,
+      is_deleted: true,
+      user_id: 1750000897,
+      timestamp_client: 1300975908015,
+      photo: 
+      {
+        photo_id: 106798537988
+      }
+    },
+    {
+      id: 106788052233,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 106526956809,
+      user_id: 1659782145,
+      timestamp_client: 1300975871484,
+      photo: 
+      {
+        photo_id: 106788052228
+      },
+      comment_child_item: [
+      {
+        id: 106793295113,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 106526956809,
+        reply_to_item_id: 106788052233,
+        user_id: 1206934785,
+        timestamp_client: 1300975891812,
+        text: "Haha. Nice."
+      }
+      ]
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      1659782145,
+      1739522305
+      ],
+      counts: 
+      {
+        num_likes: 0,
+        num_photos: 2,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 2
+      },
+      timestamp_last_significant_update: 1300976019408,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      1739522305,
+      1659782145
+      ],
+      multilens_thread_view_contributor: [
+      1659782145,
+      1739522305
+      ],
+      non_multilens_thread_view_contributor: [
+      1659782145,
+      1739522305
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 1739522305,
+    name: "Paul",
+    profile_photo_id: 106442981636,
+    last_updated_millis: 1301068517387
+  },
+  {
+    id: 1659782145,
+    name: "Michele",
+    profile_photo_id: 106172449028,
+    last_updated_millis: 1301071041305
+  }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  item: [
+  {
+    id: 124737733385,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 3023225601,
+    timestamp_client: 1301298062023,
+    child_item: [
+    {
+      id: 124633924361,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 124737733385,
+      user_id: 1956589825,
+      timestamp_client: 1301298138755,
+      photo: 
+      {
+        photo_id: 124633924356
+      },
+      num_likes: 2,
+      comment_child_item: [
+      {
+        id: 124392751881,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 124737733385,
+        reply_to_item_id: 124633924361,
+        user_id: 3023225601,
+        timestamp_client: 1301298553757,
+        text: "Хипстата"
+      }
+      ],
+      liked_by_user_id: [
+      3023225601,
+      2902359297
+      ]
+    },
+    {
+      id: 124757656329,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 124737733385,
+      user_id: 3023225601,
+      timestamp_client: 1301298085804,
+      photo: 
+      {
+        photo_id: 124757656324
+      },
+      num_likes: 1,
+      liked_by_user_id: [
+      2902359297
+      ]
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      3023225601,
+      1956589825
+      ],
+      counts: 
+      {
+        num_likes: 3,
+        num_photos: 2,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 2
+      },
+      timestamp_last_significant_update: 1301298138755,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      1956589825,
+      3023225601,
+      2902359297
+      ],
+      multilens_thread_view_contributor: [
+      3023225601,
+      1956589825
+      ],
+      non_multilens_thread_view_contributor: [
+      3023225601,
+      1956589825
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 2902359297,
+    name: "Kira",
+    profile_photo_id: 116884667652,
+    last_updated_millis: 1301298274649
+  },
+  {
+    id: 3023225601,
+    name: "Stepan",
+    profile_photo_id: 111644979460,
+    last_updated_millis: 1301294175976
+  },
+  {
+    id: 1956589825,
+    name: "Ilya",
+    profile_photo_id: 107174899972,
+    last_updated_millis: 1300988238836
+  }
+  ]
+}

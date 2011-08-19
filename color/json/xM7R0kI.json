@@ -1,0 +1,114 @@
+{
+  item: [
+  {
+    id: 123279171849,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 2798838017,
+    timestamp_client: 1301253930174,
+    child_item: [
+    {
+      id: 123337892105,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 123279171849,
+      user_id: 4897787905,
+      timestamp_client: 1301254032400,
+      photo: 
+      {
+        photo_id: 123337892100
+      },
+      num_likes: 1,
+      liked_by_user_id: [
+      2798838017
+      ]
+    },
+    {
+      id: 123055825161,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 123279171849,
+      user_id: 4897787905,
+      timestamp_client: 1301253997960,
+      photo: 
+      {
+        photo_id: 123055825156
+      },
+      is_profile_photo: true,
+      comment_child_item: [
+      {
+        id: 123330552073,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 123279171849,
+        reply_to_item_id: 123055825161,
+        user_id: 2798838017,
+        timestamp_client: 1301254047268,
+        text: "Wassup!"
+      }
+      ]
+    },
+    {
+      id: 122749640969,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 123279171849,
+      user_id: 2798838017,
+      timestamp_client: 1301253963039,
+      text: "Var4un",
+      photo: 
+      {
+        photo_id: 122749640964
+      }
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      2798838017,
+      4897787905
+      ],
+      counts: 
+      {
+        num_likes: 1,
+        num_photos: 3,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 3
+      },
+      timestamp_last_significant_update: 1301254032400,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      4897787905,
+      2798838017
+      ],
+      multilens_thread_view_contributor: [
+      2798838017,
+      4897787905
+      ],
+      non_multilens_thread_view_contributor: [
+      2798838017,
+      4897787905
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 2798838017,
+    name: "Vovan",
+    profile_photo_id: 112351961348,
+    last_updated_millis: 1301254152035
+  },
+  {
+    id: 4897787905,
+    name: "Антон",
+    profile_photo_id: 123055825156,
+    last_updated_millis: 1301254008318
+  }
+  ]
+}

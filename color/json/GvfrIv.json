@@ -1,0 +1,133 @@
+{
+  item: [
+  {
+    id: 113434333449,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 1821806849,
+    timestamp_client: 1301072366274,
+    child_item: [
+    {
+      id: 113308504329,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 113434333449,
+      user_id: 1528024833,
+      timestamp_client: 1301073170991,
+      photo: 
+      {
+        photo_id: 113308504324
+      }
+    },
+    {
+      id: 113408119049,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 113434333449,
+      user_id: 3279557633,
+      timestamp_client: 1301073057364,
+      photo: 
+      {
+        photo_id: 113408119044
+      },
+      is_profile_photo: true,
+      comment_child_item: [
+      {
+        id: 113698574601,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 113434333449,
+        reply_to_item_id: 113408119049,
+        user_id: 3279557633,
+        timestamp_client: 1301073146713,
+        text: "I don't get it."
+      }
+      ]
+    },
+    {
+      id: 113656631561,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 113434333449,
+      user_id: 1806274817,
+      timestamp_client: 1301072787690,
+      photo: 
+      {
+        photo_id: 113656631556
+      }
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      1806274817,
+      3279557633,
+      1528024833
+      ],
+      counts: 
+      {
+        num_likes: 0,
+        num_photos: 3,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 3
+      },
+      timestamp_last_significant_update: 1301073170991,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      1528024833,
+      3279557633,
+      1411967745,
+      2692722945,
+      1806274817
+      ],
+      multilens_thread_view_contributor: [
+      1806274817,
+      3279557633,
+      1528024833
+      ],
+      non_multilens_thread_view_contributor: [
+      1806274817,
+      3279557633,
+      1528024833
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 3279557633,
+    name: "Brian",
+    profile_photo_id: 113408119044,
+    last_updated_millis: 1301073221884
+  },
+  {
+    id: 1528024833,
+    name: "Eddie",
+    profile_photo_id: 109126712580,
+    last_updated_millis: 1301007194678
+  },
+  {
+    id: 1411967745,
+    name: "Akash",
+    profile_photo_id: 105714871044,
+    last_updated_millis: 1300945011581
+  },
+  {
+    id: 1806274817,
+    name: "H",
+    profile_photo_id: 106951960324,
+    last_updated_millis: 1300979965653
+  },
+  {
+    id: 2692722945,
+    name: "Vincent",
+    profile_photo_id: 109573026052,
+    last_updated_millis: 1301013211379
+  }
+  ]
+}

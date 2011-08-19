@@ -1,0 +1,90 @@
+{
+  item: [
+  {
+    id: 107592879369,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    timestamp_client: 1300988167836,
+    child_item: [
+    {
+      id: 107593927945,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 107592879369,
+      user_id: 2058892289,
+      timestamp_client: 1300988167836,
+      photo: 
+      {
+        photo_id: 107593927940
+      },
+      is_profile_photo: true,
+      num_likes: 3,
+      comment_child_item: [
+      {
+        id: 108608949513,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 107592879369,
+        reply_to_item_id: 107593927945,
+        user_id: 2128377089,
+        timestamp_client: 1301000570314,
+        text: "Ooh! New app. Hmmmmm"
+      },
+      {
+        id: 108077321481,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 107592879369,
+        reply_to_item_id: 107593927945,
+        user_id: 1610222081,
+        timestamp_client: 1301000045761,
+        text: "Ok, so now what an I do with the app once I'm here?"
+      }
+      ],
+      liked_by_user_id: [
+      2418996993,
+      2004323585,
+      1259907329
+      ]
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      2058892289
+      ],
+      counts: 
+      {
+        num_likes: 3,
+        num_photos: 1,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 1
+      },
+      timestamp_last_significant_update: 1300988167836,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      2058892289
+      ],
+      multilens_thread_view_contributor: [
+      2058892289
+      ],
+      non_multilens_thread_view_contributor: [
+      2058892289
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 2058892289,
+    name: "Eduardo",
+    profile_photo_id: 107593927940,
+    last_updated_millis: 1300988463455
+  }
+  ]
+}

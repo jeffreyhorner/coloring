@@ -1,0 +1,79 @@
+{
+  item: [
+  {
+    id: 123655081481,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 4947889665,
+    timestamp_client: 1301230071976,
+    child_item: [
+    {
+      id: 123660324361,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 123655081481,
+      user_id: 4947889665,
+      timestamp_client: 1301230075458,
+      photo: 
+      {
+        photo_id: 123660324356
+      },
+      is_profile_photo: true,
+      num_likes: 1,
+      comment_child_item: [
+      {
+        id: 123645644297,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 123655081481,
+        reply_to_item_id: 123660324361,
+        user_id: 4947889665,
+        timestamp_client: 1301230377824,
+        text: "Ahahah prova color"
+      }
+      ],
+      liked_by_user_id: [
+      4947889665
+      ]
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      4947889665
+      ],
+      counts: 
+      {
+        num_likes: 1,
+        num_photos: 1,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 1
+      },
+      timestamp_last_significant_update: 1301230075458,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      4947889665
+      ],
+      multilens_thread_view_contributor: [
+      4947889665
+      ],
+      non_multilens_thread_view_contributor: [
+      4947889665
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 4947889665,
+    name: "Mauro",
+    profile_photo_id: 123660324356,
+    last_updated_millis: 1301230425165
+  }
+  ]
+}

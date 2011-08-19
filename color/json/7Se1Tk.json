@@ -1,0 +1,138 @@
+{
+  item: [
+  {
+    id: 106544163081,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 1937172737,
+    timestamp_client: 1300972678507,
+    child_item: [
+    {
+      id: 106604980489,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 106544163081,
+      user_id: 1873782529,
+      timestamp_client: 1300973202275,
+      photo: 
+      {
+        photo_id: 106604980484
+      }
+    },
+    {
+      id: 106599737609,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 106544163081,
+      user_id: 1937172737,
+      timestamp_client: 1300973168912,
+      photo: 
+      {
+        photo_id: 106599737604
+      }
+    },
+    {
+      id: 106594494729,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 106544163081,
+      user_id: 1873782529,
+      timestamp_client: 1300973094406,
+      photo: 
+      {
+        photo_id: 106594494724
+      },
+      is_profile_photo: true
+    },
+    {
+      id: 106194987273,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 106544163081,
+      user_id: 1937172737,
+      timestamp_client: 1300972701125,
+      photo: 
+      {
+        photo_id: 106194987268
+      },
+      num_likes: 1,
+      comment_child_item: [
+      {
+        id: 106208618761,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 106544163081,
+        reply_to_item_id: 106194987273,
+        user_id: 1873782529,
+        timestamp_client: 1300973265255,
+        text: "Artsy."
+      }
+      ],
+      liked_by_user_id: [
+      1873782529
+      ]
+    },
+    {
+      id: 106366953737,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 106544163081,
+      user_id: 1937172737,
+      timestamp_client: 1300972675741,
+      photo: 
+      {
+        photo_id: 106366953732
+      },
+      is_profile_photo: true
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      1937172737,
+      1873782529
+      ],
+      counts: 
+      {
+        num_likes: 1,
+        num_photos: 5,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 5
+      },
+      timestamp_last_significant_update: 1300973202275,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      1873782529,
+      1937172737
+      ],
+      multilens_thread_view_contributor: [
+      1937172737,
+      1873782529
+      ],
+      non_multilens_thread_view_contributor: [
+      1937172737,
+      1873782529
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 1873782529,
+    name: "LC",
+    profile_photo_id: 106594494724,
+    last_updated_millis: 1300997905069
+  },
+  {
+    id: 1937172737,
+    name: "Sam",
+    profile_photo_id: 106366953732,
+    last_updated_millis: 1300972680492
+  }
+  ]
+}

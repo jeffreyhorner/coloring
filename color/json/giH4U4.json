@@ -1,0 +1,101 @@
+{
+  item: [
+  {
+    id: 107543885833,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 1598912513,
+    timestamp_client: 1300988650060,
+    child_item: [
+    {
+      id: 107502991369,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 107543885833,
+      user_id: 1598912513,
+      timestamp_client: 1300988859718,
+      photo: 
+      {
+        photo_id: 107502991364
+      },
+      is_profile_photo: true
+    },
+    {
+      id: 107378210825,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 107543885833,
+      user_id: 1598912513,
+      timestamp_client: 1300988732601,
+      photo: 
+      {
+        photo_id: 107378210820
+      },
+      comment_child_item: [
+      {
+        id: 107570100233,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 107543885833,
+        reply_to_item_id: 107378210825,
+        user_id: 1598912513,
+        timestamp_client: 1300989087763,
+        text: "Blossom!"
+      }
+      ]
+    },
+    {
+      id: 107282790409,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 107543885833,
+      is_deleted: true,
+      user_id: 1598912513,
+      timestamp_client: 1300988625879,
+      photo: 
+      {
+        photo_id: 107282790404
+      },
+      is_profile_photo: true
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      1598912513
+      ],
+      counts: 
+      {
+        num_likes: 0,
+        num_photos: 2,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 2
+      },
+      timestamp_last_significant_update: 1300988859718,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      1598912513
+      ],
+      multilens_thread_view_contributor: [
+      1598912513
+      ],
+      non_multilens_thread_view_contributor: [
+      1598912513
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 1598912513,
+    name: "An",
+    profile_photo_id: 107502991364,
+    last_updated_millis: 1301033925008
+  }
+  ]
+}

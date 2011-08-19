@@ -1,0 +1,108 @@
+{
+  item: [
+  {
+    id: 127933223689,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 1150948097,
+    timestamp_client: 1301366563468,
+    child_item: [
+    {
+      id: 127986701065,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 127933223689,
+      user_id: 2515635969,
+      timestamp_client: 1301367521834,
+      photo: 
+      {
+        photo_id: 127986701060
+      },
+      comment_child_item: [
+      {
+        id: 128069538569,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 127933223689,
+        reply_to_item_id: 127986701065,
+        user_id: 2515635969,
+        timestamp_client: 1301367661225,
+        text: "15 minutes later..."
+      }
+      ]
+    },
+    {
+      id: 127954195209,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 127933223689,
+      user_id: 1150948097,
+      timestamp_client: 1301366590432,
+      photo: 
+      {
+        photo_id: 127954195204
+      }
+    },
+    {
+      id: 127943709449,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 127933223689,
+      user_id: 1150948097,
+      timestamp_client: 1301366576602,
+      photo: 
+      {
+        photo_id: 127943709444
+      }
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      1150948097,
+      2515635969
+      ],
+      counts: 
+      {
+        num_likes: 0,
+        num_photos: 3,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 3
+      },
+      timestamp_last_significant_update: 1301367521834,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      2515635969,
+      1150948097
+      ],
+      multilens_thread_view_contributor: [
+      1150948097,
+      2515635969
+      ],
+      non_multilens_thread_view_contributor: [
+      1150948097,
+      2515635969
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 2515635969,
+    name: "tylor",
+    profile_photo_id: 111754186500,
+    last_updated_millis: 1301368146701
+  },
+  {
+    id: 1150948097,
+    name: "Roland",
+    profile_photo_id: 105206387460,
+    last_updated_millis: 1301008945950
+  }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  item: [
+  {
+    id: 113093270537,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 3247594497,
+    timestamp_client: 1301063879844,
+    child_item: [
+    {
+      id: 113358560265,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 113093270537,
+      user_id: 3247594497,
+      timestamp_client: 1301063922898,
+      photo: 
+      {
+        photo_id: 113358560260
+      },
+      num_likes: 1,
+      liked_by_user_id: [
+      3247594497
+      ]
+    },
+    {
+      id: 113191836681,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 113093270537,
+      user_id: 3247594497,
+      timestamp_client: 1301063876055,
+      photo: 
+      {
+        photo_id: 113191836676
+      },
+      is_profile_photo: true,
+      num_likes: 1,
+      comment_child_item: [
+      {
+        id: 113265237001,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 113093270537,
+        reply_to_item_id: 113191836681,
+        user_id: 3247594497,
+        timestamp_client: 1301064261365,
+        text: "Nice headphones"
+      }
+      ],
+      liked_by_user_id: [
+      3247594497
+      ]
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      3247594497
+      ],
+      counts: 
+      {
+        num_likes: 2,
+        num_photos: 2,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 2
+      },
+      timestamp_last_significant_update: 1301063922898,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      3247594497
+      ],
+      multilens_thread_view_contributor: [
+      3247594497
+      ],
+      non_multilens_thread_view_contributor: [
+      3247594497
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 3247594497,
+    name: "Michael",
+    profile_photo_id: 113191836676,
+    last_updated_millis: 1301067463528
+  }
+  ]
+}

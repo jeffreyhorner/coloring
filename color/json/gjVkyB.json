@@ -1,0 +1,142 @@
+{
+  item: [
+  {
+    id: 118401784841,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 3528186881,
+    timestamp_client: 1301131590477,
+    child_item: [
+    {
+      id: 118121815049,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 118401784841,
+      user_id: 3897430017,
+      timestamp_client: 1301132201237,
+      text: "ペリカン！",
+      photo: 
+      {
+        photo_id: 118121815044
+      }
+    },
+    {
+      id: 118433242121,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 118401784841,
+      user_id: 3897430017,
+      timestamp_client: 1301131843880,
+      photo: 
+      {
+        photo_id: 118433242116
+      },
+      is_profile_photo: true,
+      num_likes: 1,
+      comment_child_item: [
+      {
+        id: 118469942281,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 118401784841,
+        reply_to_item_id: 118433242121,
+        user_id: 3897430017,
+        timestamp_client: 1301131957540,
+        text: "Color、はじめてみた！"
+      },
+      {
+        id: 118448970761,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 118401784841,
+        reply_to_item_id: 118433242121,
+        user_id: 3528186881,
+        timestamp_client: 1301131896023,
+        text: "クジラ！"
+      }
+      ],
+      liked_by_user_id: [
+      3528186881
+      ]
+    },
+    {
+      id: 118407027721,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 118401784841,
+      user_id: 3528186881,
+      timestamp_client: 1301131584683,
+      photo: 
+      {
+        photo_id: 118407027716
+      },
+      is_profile_photo: true,
+      num_likes: 2,
+      comment_child_item: [
+      {
+        id: 118422756361,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 118401784841,
+        reply_to_item_id: 118407027721,
+        user_id: 3528186881,
+        timestamp_client: 1301131701192,
+        text: "抹茶！"
+      }
+      ],
+      liked_by_user_id: [
+      3897430017,
+      3528186881
+      ]
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      3528186881,
+      3897430017
+      ],
+      counts: 
+      {
+        num_likes: 3,
+        num_photos: 3,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 3
+      },
+      timestamp_last_significant_update: 1301132201237,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      3897430017,
+      3528186881
+      ],
+      multilens_thread_view_contributor: [
+      3528186881,
+      3897430017
+      ],
+      non_multilens_thread_view_contributor: [
+      3528186881,
+      3897430017
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 3897430017,
+    name: "Hiromichi",
+    profile_photo_id: 118433242116,
+    last_updated_millis: 1301132051191
+  },
+  {
+    id: 3528186881,
+    name: "dengurix2",
+    profile_photo_id: 118407027716,
+    last_updated_millis: 1301132149145
+  }
+  ]
+}

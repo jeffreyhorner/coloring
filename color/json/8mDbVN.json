@@ -1,0 +1,171 @@
+{
+  item: [
+  {
+    id: 123604756233,
+    type: "GROUP_ROOT",
+    media: "NONE",
+    user_id: 5042267905,
+    timestamp_client: 1301260081955,
+    child_item: [
+    {
+      id: 122982950665,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 123604756233,
+      user_id: 5100797441,
+      timestamp_client: 1301260567957,
+      photo: 
+      {
+        photo_id: 122982950660
+      }
+    },
+    {
+      id: 123228317449,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 123604756233,
+      user_id: 5100797441,
+      timestamp_client: 1301260397946,
+      photo: 
+      {
+        photo_id: 123228317444
+      },
+      num_likes: 1,
+      liked_by_user_id: [
+      5143405569
+      ]
+    },
+    {
+      id: 123399235337,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 123604756233,
+      user_id: 5143405569,
+      timestamp_client: 1301260354248,
+      photo: 
+      {
+        photo_id: 123399235332
+      },
+      comment_child_item: [
+      {
+        id: 123660330761,
+        type: "REPLY",
+        media: "NONE",
+        root_item_id: 123604756233,
+        reply_to_item_id: 123399235337,
+        user_id: 5143405569,
+        timestamp_client: 1301260460892,
+        text: "This is awesome."
+      }
+      ]
+    },
+    {
+      id: 123468441353,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 123604756233,
+      user_id: 5100797441,
+      timestamp_client: 1301260346027,
+      photo: 
+      {
+        photo_id: 123468441348
+      }
+    },
+    {
+      id: 123644602121,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 123604756233,
+      user_id: 5143405569,
+      timestamp_client: 1301260310539,
+      photo: 
+      {
+        photo_id: 123644602116
+      }
+    },
+    {
+      id: 123587979017,
+      type: "EXPLICIT",
+      media: "PHOTO",
+      root_item_id: 123604756233,
+      user_id: 5042267905,
+      timestamp_client: 1301260090582,
+      photo: 
+      {
+        photo_id: 123587979012
+      }
+    },
+    {
+      id: 123531355913,
+      type: "AUTOMATIC",
+      media: "PHOTO",
+      root_item_id: 123604756233,
+      user_id: 5042267905,
+      timestamp_client: 1301260071285,
+      photo: 
+      {
+        photo_id: 123531355908
+      },
+      is_profile_photo: true
+    }
+    ],
+    child_items_contains_all: true,
+    group_info: 
+    {
+      join_score: 0.0,
+      auto_join: false,
+      non_multilens_home_view_contributor: [
+      5042267905,
+      5143405569,
+      5100797441
+      ],
+      counts: 
+      {
+        num_likes: 1,
+        num_photos: 7,
+        num_videos: 0,
+        num_texts: 0,
+        num_members: 7
+      },
+      timestamp_last_significant_update: 1301260567957,
+      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
+      offline_expiry_distance: 3000,
+      multilens_home_view_contributor: [
+      5100797441,
+      5143405569,
+      5042267905
+      ],
+      multilens_thread_view_contributor: [
+      5042267905,
+      5143405569,
+      5100797441
+      ],
+      non_multilens_thread_view_contributor: [
+      5042267905,
+      5143405569,
+      5100797441
+      ]
+    }
+  }
+  ],
+  user: [
+  {
+    id: 5100797441,
+    name: "Jarrod",
+    profile_photo_id: 123612534532,
+    last_updated_millis: 1301260137761
+  },
+  {
+    id: 5143405569,
+    name: "Gary",
+    profile_photo_id: 124848573444,
+    last_updated_millis: 1301260532145
+  },
+  {
+    id: 5042267905,
+    name: "Jin",
+    profile_photo_id: 123531355908,
+    last_updated_millis: 1301260080778
+  }
+  ]
+}
