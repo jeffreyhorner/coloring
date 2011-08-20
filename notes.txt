@@ -11,3 +11,5 @@
   607  ls -lh serve\?id\=113567276548
   608  wget -O - http://color.com/json/stream/search/by-root/OIzacj
 
+./AlbumToJSON.sh `wget -O /dev/null http://t.co/r3o1zMZ 2>&1 | grep Location | awk '{
+print $2}' | sed -e 's/^.*color.com\/s\///'`
