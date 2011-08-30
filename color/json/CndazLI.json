@@ -16,7 +16,7 @@ $('#infoLine').html('            <b\>1</b\> photos |\n        <b\>1</b\> contrib
         ml_hours["hour_"+gdate.getHours()] = {hour: gdate.getHours(), length: 1};
     }
 
-$('#group_container').html('<div data-item=\"0\" data-user=\"0\" class=\"item user_0\" id=\"item_0\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=163581163012&amp;type=THUMB_160\" /\>\n</div\>\n\n\n    <div class=\"clear\"\></div\>\n').show();
+$('#group_container').html('<div data-item=\"0\" data-user=\"0\" class=\"item user_0\" id=\"item_0\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=163581163012&amp;type=THUMB_160\" /\>\n</div\>\n\n\n    <div class=\"clear\"\></div\>\n    \n').show();
 
 $('#user_pics').html('        <li id=\"user_0\"\><img src=\"http://color.com/photo/serve?id=125852349956&type=THUMB_80\" alt=\"Rob\" title=\"Rob\" /\></li\>\n    <div class=\"clear\"\></div\>\n');
 

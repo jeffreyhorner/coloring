@@ -1,8 +1,6 @@
 var ml_items = {},
     ml_hours = {};
-
-$('#infoLine').html('        <b\>1</b\> photos |\n    <b\>1</b\> contributors\n');;
-
+$('#infoLine').html('            <b\>1</b\> photos |\n        <b\>1</b\> contributors\n').show();
 
 
     ml_items["item_0"] = {};
@@ -18,7 +16,7 @@ $('#infoLine').html('        <b\>1</b\> photos |\n    <b\>1</b\> contributors\n'
         ml_hours["hour_"+gdate.getHours()] = {hour: gdate.getHours(), length: 1};
     }
 
-$('#group_container').html('<div data-item=\"0\" data-user=\"0\" class=\"item user_0\" id=\"item_0\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=136836678660&amp;type=THUMB_160\" /\>\n</div\>\n\n\n    <div class=\"clear\"\></div\>\n');
+$('#group_container').html('<div data-item=\"0\" data-user=\"0\" class=\"item user_0\" id=\"item_0\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=136836678660&amp;type=THUMB_160\" /\>\n</div\>\n\n\n    <div class=\"clear\"\></div\>\n    \n').show();
 
 $('#user_pics').html('        <li id=\"user_0\"\><img src=\"http://color.com/photo/serve?id=135618233348&type=THUMB_80\" alt=\"David\" title=\"David\" /\></li\>\n    <div class=\"clear\"\></div\>\n');
 
@@ -28,6 +26,7 @@ var hhtml = "";
 $.each(ml_hours, function(i,h){
     $('.item:eq('+h.index+')').after('<div class="clear"></div>');
     var hstring = (h.hour > 12 ? (h.hour-12)+"PM" : h.hour+"AM");
+    if(h.hour == 12) hstring = "12PM";
     if(h.hour == 0) hstring = "12AM";
     var height = Math.ceil(h.length/7)*120;
     hhtml += '<li style="height: '+(height-33)+'px;">'+hstring+'</li>';

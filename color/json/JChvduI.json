@@ -1,8 +1,6 @@
 var ml_items = {},
     ml_hours = {};
-
-$('#infoLine').html('        <b\>1</b\> photos |\n    <b\>1</b\> contributors\n');;
-
+$('#infoLine').html('            <b\>1</b\> photos |\n        <b\>1</b\> contributors\n').show();
 
 
     ml_items["item_0"] = {};
@@ -18,7 +16,7 @@ $('#infoLine').html('        <b\>1</b\> photos |\n    <b\>1</b\> contributors\n'
         ml_hours["hour_"+gdate.getHours()] = {hour: gdate.getHours(), length: 1};
     }
 
-$('#group_container').html('<div data-item=\"0\" data-user=\"0\" class=\"item user_0\" id=\"item_0\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=155866045444&amp;type=THUMB_160\" /\>\n</div\>\n\n\n    <div class=\"clear\"\></div\>\n');
+$('#group_container').html('<div data-item=\"0\" data-user=\"0\" class=\"item user_0\" id=\"item_0\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=155866045444&amp;type=THUMB_160\" /\>\n</div\>\n\n\n    <div class=\"clear\"\></div\>\n    \n').show();
 
 $('#user_pics').html('        <li id=\"user_0\"\><img src=\"http://color.com/photo/serve?id=155812568068&type=THUMB_80\" alt=\"Liz\" title=\"Liz\" /\></li\>\n    <div class=\"clear\"\></div\>\n');
 

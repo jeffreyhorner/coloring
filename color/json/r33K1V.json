@@ -1,284 +1,154 @@
-{
-  item: [
-  {
-    id: 111211667721,
-    type: "GROUP_ROOT",
-    media: "NONE",
-    user_id: 1334534401,
-    timestamp_client: 1301043213316,
-    child_item: [
-    {
-      id: 111388877065,
-      type: "EXPLICIT",
-      media: "PHOTO",
-      root_item_id: 111211667721,
-      user_id: 2335497729,
-      timestamp_client: 1301044452115,
-      photo: 
-      {
-        photo_id: 111388877060
-      },
-      num_likes: 1,
-      comment_child_item: [
-      {
-        id: 111399362825,
-        type: "REPLY",
-        media: "NONE",
-        root_item_id: 111211667721,
-        reply_to_item_id: 111388877065,
-        user_id: 1334534401,
-        timestamp_client: 1301044858556,
-        text: "Ahhh the Shakespeare"
-      }
-      ],
-      liked_by_user_id: [
-      1334534401
-      ]
-    },
-    {
-      id: 111442354441,
-      type: "EXPLICIT",
-      media: "PHOTO",
-      root_item_id: 111211667721,
-      user_id: 1334534401,
-      timestamp_client: 1301044259071,
-      photo: 
-      {
-        photo_id: 111442354436
-      }
-    },
-    {
-      id: 111443403017,
-      type: "EXPLICIT",
-      media: "PHOTO",
-      root_item_id: 111211667721,
-      user_id: 1334534401,
-      timestamp_client: 1301044117074,
-      text: "Yes at dolphin",
-      photo: 
-      {
-        photo_id: 111443403012
-      }
-    },
-    {
-      id: 111319671049,
-      type: "EXPLICIT",
-      media: "PHOTO",
-      root_item_id: 111211667721,
-      user_id: 2970492417,
-      timestamp_client: 1301043992864,
-      photo: 
-      {
-        photo_id: 111319671044
-      },
-      num_likes: 1,
-      comment_child_item: [
-      {
-        id: 111307088137,
-        type: "REPLY",
-        media: "NONE",
-        root_item_id: 111211667721,
-        reply_to_item_id: 111319671049,
-        user_id: 1334534401,
-        timestamp_client: 1301044410706,
-        text: "This is quite nerdy"
-      }
-      ],
-      liked_by_user_id: [
-      1334534401
-      ]
-    },
-    {
-      id: 111345885449,
-      type: "AUTOMATIC",
-      media: "PHOTO",
-      root_item_id: 111211667721,
-      user_id: 1458933761,
-      timestamp_client: 1301043918725,
-      photo: 
-      {
-        photo_id: 111345885444
-      },
-      is_profile_photo: true,
-      num_likes: 1,
-      liked_by_user_id: [
-      1334534401
-      ]
-    },
-    {
-      id: 111212716297,
-      type: "EXPLICIT",
-      media: "PHOTO",
-      root_item_id: 111211667721,
-      user_id: 1334534401,
-      timestamp_client: 1301043881569,
-      text: "Color App Testing",
-      photo: 
-      {
-        photo_id: 111212716292
-      },
-      num_likes: 1,
-      comment_child_item: [
-      {
-        id: 111299748105,
-        type: "REPLY",
-        media: "NONE",
-        root_item_id: 111211667721,
-        reply_to_item_id: 111212716297,
-        user_id: 1334534401,
-        timestamp_client: 1301044423719,
-        text: "Dude"
-      }
-      ],
-      liked_by_user_id: [
-      1334534401
-      ]
-    },
-    {
-      id: 111366856969,
-      type: "EXPLICIT",
-      media: "PHOTO",
-      root_item_id: 111211667721,
-      user_id: 2970492417,
-      timestamp_client: 1301043739186,
-      photo: 
-      {
-        photo_id: 111366856964
-      },
-      num_likes: 1,
-      liked_by_user_id: [
-      1334534401
-      ]
-    },
-    {
-      id: 110750294281,
-      type: "EXPLICIT",
-      media: "PHOTO",
-      root_item_id: 111211667721,
-      user_id: 1334534401,
-      timestamp_client: 1301043524064,
-      text: "Drinking",
-      photo: 
-      {
-        photo_id: 110750294276
-      },
-      num_likes: 1,
-      liked_by_user_id: [
-      1334534401
-      ]
-    },
-    {
-      id: 111381537033,
-      type: "EXPLICIT",
-      media: "PHOTO",
-      root_item_id: 111211667721,
-      user_id: 1334534401,
-      timestamp_client: 1301043380929,
-      photo: 
-      {
-        photo_id: 111381537028
-      },
-      num_likes: 1,
-      liked_by_user_id: [
-      1458933761
-      ]
-    },
-    {
-      id: 111324913929,
-      type: "EXPLICIT",
-      media: "PHOTO",
-      root_item_id: 111211667721,
-      user_id: 1458933761,
-      timestamp_client: 1301043263700,
-      photo: 
-      {
-        photo_id: 111324913924
-      },
-      num_likes: 1,
-      liked_by_user_id: [
-      1334534401
-      ]
-    },
-    {
-      id: 110707302665,
-      type: "EXPLICIT",
-      media: "PHOTO",
-      root_item_id: 111211667721,
-      user_id: 1334534401,
-      timestamp_client: 1301043235157,
-      photo: 
-      {
-        photo_id: 110707302660
-      }
+var ml_items = {},
+    ml_hours = {};
+$('#infoLine').html('            <b\>11</b\> photos |\n        <b\>4</b\> contributors\n').show();
+
+
+    ml_items["item_0"] = {};
+    ml_items["item_0"].tsClient = 1301044452115;
+    ml_items["item_0"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=111388877060\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=108773301764&type=THUMB_80\" /\>\n            <b\>Scott</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
+
+    var gdate = new Date(parseInt(1301044452115));
+    if(ml_hours["hour_"+gdate.getHours()]) {
+        ml_hours["hour_"+gdate.getHours()].length += 1;
+        ml_hours["hour_"+gdate.getHours()].index = 0;
+    } else {
+        newClear = !$.isEmptyObject(ml_hours);
+        ml_hours["hour_"+gdate.getHours()] = {hour: gdate.getHours(), length: 1};
     }
-    ],
-    child_items_contains_all: true,
-    group_info: 
-    {
-      join_score: 0.0,
-      auto_join: false,
-      non_multilens_home_view_contributor: [
-      1458933761,
-      2970492417,
-      1334534401,
-      2335497729
-      ],
-      counts: 
-      {
-        num_likes: 8,
-        num_photos: 11,
-        num_videos: 0,
-        num_texts: 0,
-        num_members: 11
-      },
-      timestamp_last_significant_update: 1301044452115,
-      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
-      offline_expiry_distance: 3000,
-      multilens_home_view_contributor: [
-      2335497729,
-      1334534401,
-      2970492417,
-      1458933761
-      ],
-      multilens_thread_view_contributor: [
-      1458933761,
-      2970492417,
-      1334534401,
-      2335497729
-      ],
-      non_multilens_thread_view_contributor: [
-      1458933761,
-      2970492417,
-      1334534401,
-      2335497729
-      ]
+    ml_items["item_1"] = {};
+    ml_items["item_1"].tsClient = 1301044259071;
+    ml_items["item_1"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=111442354436\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=105848201476&type=THUMB_80\" /\>\n            <b\>Carl</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
+
+    var gdate = new Date(parseInt(1301044259071));
+    if(ml_hours["hour_"+gdate.getHours()]) {
+        ml_hours["hour_"+gdate.getHours()].length += 1;
+        ml_hours["hour_"+gdate.getHours()].index = 1;
+    } else {
+        newClear = !$.isEmptyObject(ml_hours);
+        ml_hours["hour_"+gdate.getHours()] = {hour: gdate.getHours(), length: 1};
     }
-  }
-  ],
-  user: [
-  {
-    id: 1458933761,
-    name: "Ian",
-    profile_photo_id: 111345885444,
-    last_updated_millis: 1301043938099
-  },
-  {
-    id: 1334534401,
-    name: "Carl",
-    profile_photo_id: 105848201476,
-    last_updated_millis: 1301054418965
-  },
-  {
-    id: 2970492417,
-    name: "Andrew",
-    profile_photo_id: 111552028164,
-    last_updated_millis: 1301040846040
-  },
-  {
-    id: 2335497729,
-    name: "Scott",
-    profile_photo_id: 108773301764,
-    last_updated_millis: 1301063093151
-  }
-  ]
-}
+    ml_items["item_2"] = {};
+    ml_items["item_2"].tsClient = 1301044117074;
+    ml_items["item_2"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=111443403012\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=105848201476&type=THUMB_80\" /\>\n            <b\>Carl</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
+
+    var gdate = new Date(parseInt(1301044117074));
+    if(ml_hours["hour_"+gdate.getHours()]) {
+        ml_hours["hour_"+gdate.getHours()].length += 1;
+        ml_hours["hour_"+gdate.getHours()].index = 2;
+    } else {
+        newClear = !$.isEmptyObject(ml_hours);
+        ml_hours["hour_"+gdate.getHours()] = {hour: gdate.getHours(), length: 1};
+    }
+    ml_items["item_3"] = {};
+    ml_items["item_3"].tsClient = 1301043992864;
+    ml_items["item_3"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=111319671044\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=111552028164&type=THUMB_80\" /\>\n            <b\>Andrew</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
+
+    var gdate = new Date(parseInt(1301043992864));
+    if(ml_hours["hour_"+gdate.getHours()]) {
+        ml_hours["hour_"+gdate.getHours()].length += 1;
+        ml_hours["hour_"+gdate.getHours()].index = 3;
+    } else {
+        newClear = !$.isEmptyObject(ml_hours);
+        ml_hours["hour_"+gdate.getHours()] = {hour: gdate.getHours(), length: 1};
+    }
+    ml_items["item_4"] = {};
+    ml_items["item_4"].tsClient = 1301043918725;
+    ml_items["item_4"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=111345885444\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=111345885444&type=THUMB_80\" /\>\n            <b\>Ian</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
+
+    var gdate = new Date(parseInt(1301043918725));
+    if(ml_hours["hour_"+gdate.getHours()]) {
+        ml_hours["hour_"+gdate.getHours()].length += 1;
+        ml_hours["hour_"+gdate.getHours()].index = 4;
+    } else {
+        newClear = !$.isEmptyObject(ml_hours);
+        ml_hours["hour_"+gdate.getHours()] = {hour: gdate.getHours(), length: 1};
+    }
+    ml_items["item_5"] = {};
+    ml_items["item_5"].tsClient = 1301043881569;
+    ml_items["item_5"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=111212716292\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=105848201476&type=THUMB_80\" /\>\n            <b\>Carl</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
+
+    var gdate = new Date(parseInt(1301043881569));
+    if(ml_hours["hour_"+gdate.getHours()]) {
+        ml_hours["hour_"+gdate.getHours()].length += 1;
+        ml_hours["hour_"+gdate.getHours()].index = 5;
+    } else {
+        newClear = !$.isEmptyObject(ml_hours);
+        ml_hours["hour_"+gdate.getHours()] = {hour: gdate.getHours(), length: 1};
+    }
+    ml_items["item_6"] = {};
+    ml_items["item_6"].tsClient = 1301043739186;
+    ml_items["item_6"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=111366856964\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=111552028164&type=THUMB_80\" /\>\n            <b\>Andrew</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
+
+    var gdate = new Date(parseInt(1301043739186));
+    if(ml_hours["hour_"+gdate.getHours()]) {
+        ml_hours["hour_"+gdate.getHours()].length += 1;
+        ml_hours["hour_"+gdate.getHours()].index = 6;
+    } else {
+        newClear = !$.isEmptyObject(ml_hours);
+        ml_hours["hour_"+gdate.getHours()] = {hour: gdate.getHours(), length: 1};
+    }
+    ml_items["item_7"] = {};
+    ml_items["item_7"].tsClient = 1301043524064;
+    ml_items["item_7"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=110750294276\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=105848201476&type=THUMB_80\" /\>\n            <b\>Carl</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
+
+    var gdate = new Date(parseInt(1301043524064));
+    if(ml_hours["hour_"+gdate.getHours()]) {
+        ml_hours["hour_"+gdate.getHours()].length += 1;
+        ml_hours["hour_"+gdate.getHours()].index = 7;
+    } else {
+        newClear = !$.isEmptyObject(ml_hours);
+        ml_hours["hour_"+gdate.getHours()] = {hour: gdate.getHours(), length: 1};
+    }
+    ml_items["item_8"] = {};
+    ml_items["item_8"].tsClient = 1301043380929;
+    ml_items["item_8"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=111381537028\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=105848201476&type=THUMB_80\" /\>\n            <b\>Carl</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
+
+    var gdate = new Date(parseInt(1301043380929));
+    if(ml_hours["hour_"+gdate.getHours()]) {
+        ml_hours["hour_"+gdate.getHours()].length += 1;
+        ml_hours["hour_"+gdate.getHours()].index = 8;
+    } else {
+        newClear = !$.isEmptyObject(ml_hours);
+        ml_hours["hour_"+gdate.getHours()] = {hour: gdate.getHours(), length: 1};
+    }
+    ml_items["item_9"] = {};
+    ml_items["item_9"].tsClient = 1301043263700;
+    ml_items["item_9"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=111324913924\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=111345885444&type=THUMB_80\" /\>\n            <b\>Ian</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
+
+    var gdate = new Date(parseInt(1301043263700));
+    if(ml_hours["hour_"+gdate.getHours()]) {
+        ml_hours["hour_"+gdate.getHours()].length += 1;
+        ml_hours["hour_"+gdate.getHours()].index = 9;
+    } else {
+        newClear = !$.isEmptyObject(ml_hours);
+        ml_hours["hour_"+gdate.getHours()] = {hour: gdate.getHours(), length: 1};
+    }
+    ml_items["item_10"] = {};
+    ml_items["item_10"].tsClient = 1301043235157;
+    ml_items["item_10"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=110707302660\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=105848201476&type=THUMB_80\" /\>\n            <b\>Carl</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
+
+    var gdate = new Date(parseInt(1301043235157));
+    if(ml_hours["hour_"+gdate.getHours()]) {
+        ml_hours["hour_"+gdate.getHours()].length += 1;
+        ml_hours["hour_"+gdate.getHours()].index = 10;
+    } else {
+        newClear = !$.isEmptyObject(ml_hours);
+        ml_hours["hour_"+gdate.getHours()] = {hour: gdate.getHours(), length: 1};
+    }
+
+$('#group_container').html('<div data-item=\"0\" data-user=\"3\" class=\"item user_3\" id=\"item_0\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=111388877060&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"1\" data-user=\"1\" class=\"item user_1\" id=\"item_1\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=111442354436&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"2\" data-user=\"1\" class=\"item user_1\" id=\"item_2\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=111443403012&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"3\" data-user=\"2\" class=\"item user_2\" id=\"item_3\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=111319671044&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"4\" data-user=\"0\" class=\"item user_0\" id=\"item_4\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=111345885444&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"5\" data-user=\"1\" class=\"item user_1\" id=\"item_5\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=111212716292&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"6\" data-user=\"2\" class=\"item user_2\" id=\"item_6\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=111366856964&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"7\" data-user=\"1\" class=\"item user_1\" id=\"item_7\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=110750294276&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"8\" data-user=\"1\" class=\"item user_1\" id=\"item_8\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=111381537028&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"9\" data-user=\"0\" class=\"item user_0\" id=\"item_9\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=111324913924&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"10\" data-user=\"1\" class=\"item user_1\" id=\"item_10\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=110707302660&amp;type=THUMB_160\" /\>\n</div\>\n\n\n    <div class=\"clear\"\></div\>\n    \n').show();
+
+$('#user_pics').html('        <li id=\"user_0\"\><img src=\"http://color.com/photo/serve?id=111345885444&type=THUMB_80\" alt=\"Ian\" title=\"Ian\" /\></li\>\n        <li id=\"user_1\"\><img src=\"http://color.com/photo/serve?id=105848201476&type=THUMB_80\" alt=\"Carl\" title=\"Carl\" /\></li\>\n        <li id=\"user_2\"\><img src=\"http://color.com/photo/serve?id=111552028164&type=THUMB_80\" alt=\"Andrew\" title=\"Andrew\" /\></li\>\n        <li id=\"user_3\"\><img src=\"http://color.com/photo/serve?id=108773301764&type=THUMB_80\" alt=\"Scott\" title=\"Scott\" /\></li\>\n    <div class=\"clear\"\></div\>\n');
+
+$('#user_names').html('        <span id=\"usern_0\"\>Ian</span\>,\n        <span id=\"usern_1\"\>Carl</span\>,\n        <span id=\"usern_2\"\>Andrew</span\>,\n        <span id=\"usern_3\"\>Scott</span\>\n    <div class=\"clear\"\></div\>\n');
+
+var hhtml = "";
+$.each(ml_hours, function(i,h){
+    $('.item:eq('+h.index+')').after('<div class="clear"></div>');
+    var hstring = (h.hour > 12 ? (h.hour-12)+"PM" : h.hour+"AM");
+    if(h.hour == 12) hstring = "12PM";
+    if(h.hour == 0) hstring = "12AM";
+    var height = Math.ceil(h.length/7)*120;
+    hhtml += '<li style="height: '+(height-33)+'px;">'+hstring+'</li>';
+});
+$('#time_labels').html(hhtml);

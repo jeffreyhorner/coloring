@@ -5,7 +5,7 @@ $('#infoLine').html('            <b\>1</b\> photos |\n        <b\>1</b\> contrib
 
     ml_items["item_0"] = {};
     ml_items["item_0"].tsClient = 1305907996000;
-    ml_items["item_0"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=173248818436\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=137900272900&type=THUMB_80\" /\>\n            <b\>kiyono</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
+    ml_items["item_0"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=173248818436\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=176100945156&type=THUMB_80\" /\>\n            <b\>kiyono</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
 
     var gdate = new Date(parseInt(1305907996000));
     if(ml_hours["hour_"+gdate.getHours()]) {
@@ -18,7 +18,7 @@ $('#infoLine').html('            <b\>1</b\> photos |\n        <b\>1</b\> contrib
 
 $('#group_container').html('<div data-item=\"0\" data-user=\"0\" class=\"item user_0\" id=\"item_0\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=173248818436&amp;type=THUMB_160\" /\>\n</div\>\n\n\n    <div class=\"clear\"\></div\>\n    \n').show();
 
-$('#user_pics').html('        <li id=\"user_0\"\><img src=\"http://color.com/photo/serve?id=137900272900&type=THUMB_80\" alt=\"kiyono\" title=\"kiyono\" /\></li\>\n    <div class=\"clear\"\></div\>\n');
+$('#user_pics').html('        <li id=\"user_0\"\><img src=\"http://color.com/photo/serve?id=176100945156&type=THUMB_80\" alt=\"kiyono\" title=\"kiyono\" /\></li\>\n    <div class=\"clear\"\></div\>\n');
 
 $('#user_names').html('        <span id=\"usern_0\"\>kiyono</span\>\n    <div class=\"clear\"\></div\>\n');
 

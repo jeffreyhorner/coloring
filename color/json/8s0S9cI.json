@@ -1,89 +1,34 @@
-{
-  item: [
-  {
-    id: 122051393289,
-    type: "GROUP_ROOT",
-    media: "NONE",
-    user_id: 3730077441,
-    timestamp_client: 1301213707587,
-    child_item: [
-    {
-      id: 122055587593,
-      type: "EXPLICIT",
-      media: "PHOTO",
-      root_item_id: 122051393289,
-      user_id: 3730077441,
-      timestamp_client: 1301213745561,
-      text: "뮤지컬은 난생처음..",
-      photo: 
-      {
-        photo_id: 122055587588
-      },
-      num_likes: 1,
-      comment_child_item: [
-      {
-        id: 122022033161,
-        type: "REPLY",
-        media: "NONE",
-        root_item_id: 122051393289,
-        reply_to_item_id: 122055587593,
-        user_id: 3730077441,
-        timestamp_client: 1301214243972,
-        text: "그치??"
-      },
-      {
-        id: 121732626185,
-        type: "REPLY",
-        media: "NONE",
-        root_item_id: 122051393289,
-        reply_to_item_id: 122055587593,
-        user_id: 5102688001,
-        timestamp_client: 1301214129352,
-        text: "재밌겠다~"
-      }
-      ],
-      liked_by_user_id: [
-      5102688001
-      ]
+var ml_items = {},
+    ml_hours = {};
+$('#infoLine').html('            <b\>1</b\> photos |\n        <b\>1</b\> contributors\n').show();
+
+
+    ml_items["item_0"] = {};
+    ml_items["item_0"].tsClient = 1301213745561;
+    ml_items["item_0"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=122055587588\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=116391180036&type=THUMB_80\" /\>\n            <b\>학봉이</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
+
+    var gdate = new Date(parseInt(1301213745561));
+    if(ml_hours["hour_"+gdate.getHours()]) {
+        ml_hours["hour_"+gdate.getHours()].length += 1;
+        ml_hours["hour_"+gdate.getHours()].index = 0;
+    } else {
+        newClear = !$.isEmptyObject(ml_hours);
+        ml_hours["hour_"+gdate.getHours()] = {hour: gdate.getHours(), length: 1};
     }
-    ],
-    child_items_contains_all: true,
-    group_info: 
-    {
-      join_score: 0.0,
-      auto_join: false,
-      non_multilens_home_view_contributor: [
-      3730077441
-      ],
-      counts: 
-      {
-        num_likes: 1,
-        num_photos: 1,
-        num_videos: 0,
-        num_texts: 0,
-        num_members: 1
-      },
-      timestamp_last_significant_update: 1301213745561,
-      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
-      offline_expiry_distance: 3000,
-      multilens_home_view_contributor: [
-      3730077441
-      ],
-      multilens_thread_view_contributor: [
-      3730077441
-      ],
-      non_multilens_thread_view_contributor: [
-      3730077441
-      ]
-    }
-  }
-  ],
-  user: [
-  {
-    id: 3730077441,
-    name: "학봉이",
-    profile_photo_id: 116391180036,
-    last_updated_millis: 1301214130474
-  }
-  ]
-}
+
+$('#group_container').html('<div data-item=\"0\" data-user=\"0\" class=\"item user_0\" id=\"item_0\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=122055587588&amp;type=THUMB_160\" /\>\n</div\>\n\n\n    <div class=\"clear\"\></div\>\n    \n').show();
+
+$('#user_pics').html('        <li id=\"user_0\"\><img src=\"http://color.com/photo/serve?id=116391180036&type=THUMB_80\" alt=\"학봉이\" title=\"학봉이\" /\></li\>\n    <div class=\"clear\"\></div\>\n');
+
+$('#user_names').html('        <span id=\"usern_0\"\>학봉이</span\>\n    <div class=\"clear\"\></div\>\n');
+
+var hhtml = "";
+$.each(ml_hours, function(i,h){
+    $('.item:eq('+h.index+')').after('<div class="clear"></div>');
+    var hstring = (h.hour > 12 ? (h.hour-12)+"PM" : h.hour+"AM");
+    if(h.hour == 12) hstring = "12PM";
+    if(h.hour == 0) hstring = "12AM";
+    var height = Math.ceil(h.length/7)*120;
+    hhtml += '<li style="height: '+(height-33)+'px;">'+hstring+'</li>';
+});
+$('#time_labels').html(hhtml);

@@ -1,74 +1,34 @@
-{
-  item: [
-  {
-    id: 120318085641,
-    type: "GROUP_ROOT",
-    media: "NONE",
-    user_id: 2487503361,
-    timestamp_client: 1301177966385,
-    child_item: [
-    {
-      id: 120086350345,
-      type: "EXPLICIT",
-      media: "PHOTO",
-      root_item_id: 120318085641,
-      user_id: 2487503361,
-      timestamp_client: 1301178006691,
-      photo: 
-      {
-        photo_id: 120086350340
-      },
-      comment_child_item: [
-      {
-        id: 119936403977,
-        type: "REPLY",
-        media: "NONE",
-        root_item_id: 120318085641,
-        reply_to_item_id: 120086350345,
-        user_id: 2487503361,
-        timestamp_client: 1301178075210,
-        text: "Soundtrackin' 'Black and Yellow' - Wiz Khalifa. #Steelers for life!"
-      }
-      ]
+var ml_items = {},
+    ml_hours = {};
+$('#infoLine').html('            <b\>1</b\> photos |\n        <b\>1</b\> contributors\n').show();
+
+
+    ml_items["item_0"] = {};
+    ml_items["item_0"].tsClient = 1301178006691;
+    ml_items["item_0"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=120086350340\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=109414758404&type=THUMB_80\" /\>\n            <b\>EChO</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
+
+    var gdate = new Date(parseInt(1301178006691));
+    if(ml_hours["hour_"+gdate.getHours()]) {
+        ml_hours["hour_"+gdate.getHours()].length += 1;
+        ml_hours["hour_"+gdate.getHours()].index = 0;
+    } else {
+        newClear = !$.isEmptyObject(ml_hours);
+        ml_hours["hour_"+gdate.getHours()] = {hour: gdate.getHours(), length: 1};
     }
-    ],
-    child_items_contains_all: true,
-    group_info: 
-    {
-      join_score: 0.0,
-      auto_join: false,
-      non_multilens_home_view_contributor: [
-      2487503361
-      ],
-      counts: 
-      {
-        num_likes: 0,
-        num_photos: 1,
-        num_videos: 0,
-        num_texts: 0,
-        num_members: 1
-      },
-      timestamp_last_significant_update: 1301178006691,
-      offline_expiry_meters_to_millis_ratio: 2.777777777777778E-4,
-      offline_expiry_distance: 3000,
-      multilens_home_view_contributor: [
-      2487503361
-      ],
-      multilens_thread_view_contributor: [
-      2487503361
-      ],
-      non_multilens_thread_view_contributor: [
-      2487503361
-      ]
-    }
-  }
-  ],
-  user: [
-  {
-    id: 2487503361,
-    name: "EChO",
-    profile_photo_id: 109414758404,
-    last_updated_millis: 1301032520987
-  }
-  ]
-}
+
+$('#group_container').html('<div data-item=\"0\" data-user=\"0\" class=\"item user_0\" id=\"item_0\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=120086350340&amp;type=THUMB_160\" /\>\n</div\>\n\n\n    <div class=\"clear\"\></div\>\n    \n').show();
+
+$('#user_pics').html('        <li id=\"user_0\"\><img src=\"http://color.com/photo/serve?id=109414758404&type=THUMB_80\" alt=\"EChO\" title=\"EChO\" /\></li\>\n    <div class=\"clear\"\></div\>\n');
+
+$('#user_names').html('        <span id=\"usern_0\"\>EChO</span\>\n    <div class=\"clear\"\></div\>\n');
+
+var hhtml = "";
+$.each(ml_hours, function(i,h){
+    $('.item:eq('+h.index+')').after('<div class="clear"></div>');
+    var hstring = (h.hour > 12 ? (h.hour-12)+"PM" : h.hour+"AM");
+    if(h.hour == 12) hstring = "12PM";
+    if(h.hour == 0) hstring = "12AM";
+    var height = Math.ceil(h.length/7)*120;
+    hhtml += '<li style="height: '+(height-33)+'px;">'+hstring+'</li>';
+});
+$('#time_labels').html(hhtml);
