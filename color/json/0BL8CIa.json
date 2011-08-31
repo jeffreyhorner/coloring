@@ -28,7 +28,7 @@ $('#infoLine').html('            <b\>2</b\> photos |\n        <b\>2</b\> contrib
         ml_hours["hour_"+gdate.getHours()] = {hour: gdate.getHours(), length: 1};
     }
 
-$('#group_container').html('<div data-item=\"0\" data-user=\"1\" class=\"item user_1\" id=\"item_0\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=164120794628&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"1\" data-user=\"0\" class=\"item user_0\" id=\"item_1\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=164178466308&amp;type=THUMB_160\" /\>\n</div\>\n\n\n    <div class=\"clear\"\></div\>\n').show();
+$('#group_container').html('<div data-item=\"0\" data-user=\"1\" class=\"item user_1\" id=\"item_0\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=164120794628&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"1\" data-user=\"0\" class=\"item user_0\" id=\"item_1\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=164178466308&amp;type=THUMB_160\" /\>\n</div\>\n\n\n    <div class=\"clear\"\></div\>\n    \n').show();
 
 $('#user_pics').html('        <li id=\"user_0\"\><img src=\"http://color.com/photo/serve?id=164397177348&type=THUMB_80\" alt=\"XaB\" title=\"XaB\" /\></li\>\n        <li id=\"user_1\"\><img src=\"http://color.com/photo/serve?id=163944633860&type=THUMB_80\" alt=\"Antenna\" title=\"Antenna\" /\></li\>\n    <div class=\"clear\"\></div\>\n');
 

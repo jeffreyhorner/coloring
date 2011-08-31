@@ -1,15 +1,13 @@
 var ml_items = {},
     ml_hours = {};
-
-$('#infoLine').html('        <b\>10</b\> photos |\n    <b\>2</b\> contributors\n');;
-
+$('#infoLine').html('            <b\>11</b\> photos |\n        <b\>3</b\> contributors\n').show();
 
 
     ml_items["item_0"] = {};
-    ml_items["item_0"].tsClient = 1302631814470;
-    ml_items["item_0"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=152362627844\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=113927074564&type=THUMB_80\" /\>\n            <b\>Susanne</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
+    ml_items["item_0"].tsClient = 1302632897989;
+    ml_items["item_0"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=152784155396\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=108412716036&type=THUMB_80\" /\>\n            <b\>Rozana</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
 
-    var gdate = new Date(parseInt(1302631814470));
+    var gdate = new Date(parseInt(1302632897989));
     if(ml_hours["hour_"+gdate.getHours()]) {
         ml_hours["hour_"+gdate.getHours()].length += 1;
         ml_hours["hour_"+gdate.getHours()].index = 0;
@@ -18,10 +16,10 @@ $('#infoLine').html('        <b\>10</b\> photos |\n    <b\>2</b\> contributors\n
         ml_hours["hour_"+gdate.getHours()] = {hour: gdate.getHours(), length: 1};
     }
     ml_items["item_1"] = {};
-    ml_items["item_1"].tsClient = 1302631603674;
-    ml_items["item_1"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=152670909188\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=154741309956&type=THUMB_80\" /\>\n            <b\>Sebastian</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
+    ml_items["item_1"].tsClient = 1302631814470;
+    ml_items["item_1"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=152362627844\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=113927074564&type=THUMB_80\" /\>\n            <b\>Susanne</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
 
-    var gdate = new Date(parseInt(1302631603674));
+    var gdate = new Date(parseInt(1302631814470));
     if(ml_hours["hour_"+gdate.getHours()]) {
         ml_hours["hour_"+gdate.getHours()].length += 1;
         ml_hours["hour_"+gdate.getHours()].index = 1;
@@ -30,10 +28,10 @@ $('#infoLine').html('        <b\>10</b\> photos |\n    <b\>2</b\> contributors\n
         ml_hours["hour_"+gdate.getHours()] = {hour: gdate.getHours(), length: 1};
     }
     ml_items["item_2"] = {};
-    ml_items["item_2"].tsClient = 1302631582196;
-    ml_items["item_2"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=152757940996\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=154741309956&type=THUMB_80\" /\>\n            <b\>Sebastian</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
+    ml_items["item_2"].tsClient = 1302631603674;
+    ml_items["item_2"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=152670909188\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=154741309956&type=THUMB_80\" /\>\n            <b\>Sebastian</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
 
-    var gdate = new Date(parseInt(1302631582196));
+    var gdate = new Date(parseInt(1302631603674));
     if(ml_hours["hour_"+gdate.getHours()]) {
         ml_hours["hour_"+gdate.getHours()].length += 1;
         ml_hours["hour_"+gdate.getHours()].index = 2;
@@ -42,10 +40,10 @@ $('#infoLine').html('        <b\>10</b\> photos |\n    <b\>2</b\> contributors\n
         ml_hours["hour_"+gdate.getHours()] = {hour: gdate.getHours(), length: 1};
     }
     ml_items["item_3"] = {};
-    ml_items["item_3"].tsClient = 1302630533410;
-    ml_items["item_3"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=152552420100\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=154741309956&type=THUMB_80\" /\>\n            <b\>Sebastian</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
+    ml_items["item_3"].tsClient = 1302631582196;
+    ml_items["item_3"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=152757940996\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=154741309956&type=THUMB_80\" /\>\n            <b\>Sebastian</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
 
-    var gdate = new Date(parseInt(1302630533410));
+    var gdate = new Date(parseInt(1302631582196));
     if(ml_hours["hour_"+gdate.getHours()]) {
         ml_hours["hour_"+gdate.getHours()].length += 1;
         ml_hours["hour_"+gdate.getHours()].index = 3;
@@ -54,10 +52,10 @@ $('#infoLine').html('        <b\>10</b\> photos |\n    <b\>2</b\> contributors\n
         ml_hours["hour_"+gdate.getHours()] = {hour: gdate.getHours(), length: 1};
     }
     ml_items["item_4"] = {};
-    ml_items["item_4"].tsClient = 1302628537202;
-    ml_items["item_4"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=152731726596\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=154741309956&type=THUMB_80\" /\>\n            <b\>Sebastian</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
+    ml_items["item_4"].tsClient = 1302630533410;
+    ml_items["item_4"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=152552420100\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=154741309956&type=THUMB_80\" /\>\n            <b\>Sebastian</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
 
-    var gdate = new Date(parseInt(1302628537202));
+    var gdate = new Date(parseInt(1302630533410));
     if(ml_hours["hour_"+gdate.getHours()]) {
         ml_hours["hour_"+gdate.getHours()].length += 1;
         ml_hours["hour_"+gdate.getHours()].index = 4;
@@ -66,10 +64,10 @@ $('#infoLine').html('        <b\>10</b\> photos |\n    <b\>2</b\> contributors\n
         ml_hours["hour_"+gdate.getHours()] = {hour: gdate.getHours(), length: 1};
     }
     ml_items["item_5"] = {};
-    ml_items["item_5"].tsClient = 1302628457533;
-    ml_items["item_5"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=152551371524\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=154741309956&type=THUMB_80\" /\>\n            <b\>Sebastian</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
+    ml_items["item_5"].tsClient = 1302628537202;
+    ml_items["item_5"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=152731726596\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=154741309956&type=THUMB_80\" /\>\n            <b\>Sebastian</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
 
-    var gdate = new Date(parseInt(1302628457533));
+    var gdate = new Date(parseInt(1302628537202));
     if(ml_hours["hour_"+gdate.getHours()]) {
         ml_hours["hour_"+gdate.getHours()].length += 1;
         ml_hours["hour_"+gdate.getHours()].index = 5;
@@ -78,10 +76,10 @@ $('#infoLine').html('        <b\>10</b\> photos |\n    <b\>2</b\> contributors\n
         ml_hours["hour_"+gdate.getHours()] = {hour: gdate.getHours(), length: 1};
     }
     ml_items["item_6"] = {};
-    ml_items["item_6"].tsClient = 1302628433040;
-    ml_items["item_6"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=152247284484\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=154741309956&type=THUMB_80\" /\>\n            <b\>Sebastian</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
+    ml_items["item_6"].tsClient = 1302628457533;
+    ml_items["item_6"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=152551371524\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=154741309956&type=THUMB_80\" /\>\n            <b\>Sebastian</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
 
-    var gdate = new Date(parseInt(1302628433040));
+    var gdate = new Date(parseInt(1302628457533));
     if(ml_hours["hour_"+gdate.getHours()]) {
         ml_hours["hour_"+gdate.getHours()].length += 1;
         ml_hours["hour_"+gdate.getHours()].index = 6;
@@ -90,10 +88,10 @@ $('#infoLine').html('        <b\>10</b\> photos |\n    <b\>2</b\> contributors\n
         ml_hours["hour_"+gdate.getHours()] = {hour: gdate.getHours(), length: 1};
     }
     ml_items["item_7"] = {};
-    ml_items["item_7"].tsClient = 1302628392600;
-    ml_items["item_7"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=152421348100\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=154741309956&type=THUMB_80\" /\>\n            <b\>Sebastian</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
+    ml_items["item_7"].tsClient = 1302628433040;
+    ml_items["item_7"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=152247284484\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=154741309956&type=THUMB_80\" /\>\n            <b\>Sebastian</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
 
-    var gdate = new Date(parseInt(1302628392600));
+    var gdate = new Date(parseInt(1302628433040));
     if(ml_hours["hour_"+gdate.getHours()]) {
         ml_hours["hour_"+gdate.getHours()].length += 1;
         ml_hours["hour_"+gdate.getHours()].index = 7;
@@ -102,10 +100,10 @@ $('#infoLine').html('        <b\>10</b\> photos |\n    <b\>2</b\> contributors\n
         ml_hours["hour_"+gdate.getHours()] = {hour: gdate.getHours(), length: 1};
     }
     ml_items["item_8"] = {};
-    ml_items["item_8"].tsClient = 1302628363114;
-    ml_items["item_8"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=152462242564\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=154741309956&type=THUMB_80\" /\>\n            <b\>Sebastian</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
+    ml_items["item_8"].tsClient = 1302628392600;
+    ml_items["item_8"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=152421348100\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=154741309956&type=THUMB_80\" /\>\n            <b\>Sebastian</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
 
-    var gdate = new Date(parseInt(1302628363114));
+    var gdate = new Date(parseInt(1302628392600));
     if(ml_hours["hour_"+gdate.getHours()]) {
         ml_hours["hour_"+gdate.getHours()].length += 1;
         ml_hours["hour_"+gdate.getHours()].index = 8;
@@ -114,10 +112,10 @@ $('#infoLine').html('        <b\>10</b\> photos |\n    <b\>2</b\> contributors\n
         ml_hours["hour_"+gdate.getHours()] = {hour: gdate.getHours(), length: 1};
     }
     ml_items["item_9"] = {};
-    ml_items["item_9"].tsClient = 1302628200309;
-    ml_items["item_9"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=152571294468\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=113927074564&type=THUMB_80\" /\>\n            <b\>Susanne</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
+    ml_items["item_9"].tsClient = 1302628363114;
+    ml_items["item_9"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=152462242564\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=154741309956&type=THUMB_80\" /\>\n            <b\>Sebastian</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
 
-    var gdate = new Date(parseInt(1302628200309));
+    var gdate = new Date(parseInt(1302628363114));
     if(ml_hours["hour_"+gdate.getHours()]) {
         ml_hours["hour_"+gdate.getHours()].length += 1;
         ml_hours["hour_"+gdate.getHours()].index = 9;
@@ -125,12 +123,24 @@ $('#infoLine').html('        <b\>10</b\> photos |\n    <b\>2</b\> contributors\n
         newClear = !$.isEmptyObject(ml_hours);
         ml_hours["hour_"+gdate.getHours()] = {hour: gdate.getHours(), length: 1};
     }
+    ml_items["item_10"] = {};
+    ml_items["item_10"].tsClient = 1302628200309;
+    ml_items["item_10"].html = '    <a href=\"#\" id=\"arr_right\"\></a\>\n    <a href=\"#\" id=\"arr_left\"\></a\>\n    <div class=\"image\"\>\n            <img src=\"http://color.com/photo/serve?id=152571294468\" /\>\n    </div\>\n    <div class=\"info\"\>\n\n        <div class=\"user\"\>\n            <img src=\"http://color.com/photo/serve?id=113927074564&type=THUMB_80\" /\>\n            <b\>Susanne</b\> took this <em\></em\>\n        </div\>\n        <div class=\"reaction\"\>\n            <span class=\"likes\"\><em\></em\>2</span\>\n        </div\>\n        <a target=\"itunes_store\" href=\"http://itunes.apple.com/us/app/color/id427763573?mt=8&amp;ls=1\" class=\"join\"\>Watch in Color</a\> &amp; interact\n    </div\>';
 
-$('#group_container').html('<div data-item=\"0\" data-user=\"0\" class=\"item user_0\" id=\"item_0\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=152362627844&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"1\" data-user=\"1\" class=\"item user_1\" id=\"item_1\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=152670909188&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"2\" data-user=\"1\" class=\"item user_1\" id=\"item_2\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=152757940996&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"3\" data-user=\"1\" class=\"item user_1\" id=\"item_3\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=152552420100&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"4\" data-user=\"1\" class=\"item user_1\" id=\"item_4\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=152731726596&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"5\" data-user=\"1\" class=\"item user_1\" id=\"item_5\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=152551371524&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"6\" data-user=\"1\" class=\"item user_1\" id=\"item_6\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=152247284484&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"7\" data-user=\"1\" class=\"item user_1\" id=\"item_7\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=152421348100&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"8\" data-user=\"1\" class=\"item user_1\" id=\"item_8\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=152462242564&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"9\" data-user=\"0\" class=\"item user_0\" id=\"item_9\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=152571294468&amp;type=THUMB_160\" /\>\n</div\>\n\n\n    <div class=\"clear\"\></div\>\n');
+    var gdate = new Date(parseInt(1302628200309));
+    if(ml_hours["hour_"+gdate.getHours()]) {
+        ml_hours["hour_"+gdate.getHours()].length += 1;
+        ml_hours["hour_"+gdate.getHours()].index = 10;
+    } else {
+        newClear = !$.isEmptyObject(ml_hours);
+        ml_hours["hour_"+gdate.getHours()] = {hour: gdate.getHours(), length: 1};
+    }
 
-$('#user_pics').html('        <li id=\"user_0\"\><img src=\"http://color.com/photo/serve?id=113927074564&type=THUMB_80\" alt=\"Susanne\" title=\"Susanne\" /\></li\>\n        <li id=\"user_1\"\><img src=\"http://color.com/photo/serve?id=154741309956&type=THUMB_80\" alt=\"Sebastian\" title=\"Sebastian\" /\></li\>\n    <div class=\"clear\"\></div\>\n');
+$('#group_container').html('<div data-item=\"0\" data-user=\"1\" class=\"item user_1\" id=\"item_0\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=152784155396&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"1\" data-user=\"0\" class=\"item user_0\" id=\"item_1\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=152362627844&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"2\" data-user=\"2\" class=\"item user_2\" id=\"item_2\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=152670909188&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"3\" data-user=\"2\" class=\"item user_2\" id=\"item_3\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=152757940996&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"4\" data-user=\"2\" class=\"item user_2\" id=\"item_4\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=152552420100&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"5\" data-user=\"2\" class=\"item user_2\" id=\"item_5\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=152731726596&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"6\" data-user=\"2\" class=\"item user_2\" id=\"item_6\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=152551371524&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"7\" data-user=\"2\" class=\"item user_2\" id=\"item_7\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=152247284484&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"8\" data-user=\"2\" class=\"item user_2\" id=\"item_8\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=152421348100&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"9\" data-user=\"2\" class=\"item user_2\" id=\"item_9\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=152462242564&amp;type=THUMB_160\" /\>\n</div\>\n\n\n<div data-item=\"10\" data-user=\"0\" class=\"item user_0\" id=\"item_10\"\>\n    <div class=\"icon\"\></div\>\n        <img src=\"http://color.com/photo/serve?id=152571294468&amp;type=THUMB_160\" /\>\n</div\>\n\n\n    <div class=\"clear\"\></div\>\n    \n').show();
 
-$('#user_names').html('        <span id=\"usern_0\"\>Susanne</span\>,\n        <span id=\"usern_1\"\>Sebastian</span\>\n    <div class=\"clear\"\></div\>\n');
+$('#user_pics').html('        <li id=\"user_0\"\><img src=\"http://color.com/photo/serve?id=113927074564&type=THUMB_80\" alt=\"Susanne\" title=\"Susanne\" /\></li\>\n        <li id=\"user_1\"\><img src=\"http://color.com/photo/serve?id=108412716036&type=THUMB_80\" alt=\"Rozana\" title=\"Rozana\" /\></li\>\n        <li id=\"user_2\"\><img src=\"http://color.com/photo/serve?id=154741309956&type=THUMB_80\" alt=\"Sebastian\" title=\"Sebastian\" /\></li\>\n    <div class=\"clear\"\></div\>\n');
+
+$('#user_names').html('        <span id=\"usern_0\"\>Susanne</span\>,\n        <span id=\"usern_1\"\>Rozana</span\>,\n        <span id=\"usern_2\"\>Sebastian</span\>\n    <div class=\"clear\"\></div\>\n');
 
 var hhtml = "";
 $.each(ml_hours, function(i,h){

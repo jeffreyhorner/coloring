@@ -1,4 +1,4 @@
-#!/home/hornerj/R-sources/branches/R-2-13-branch/bin/Rscript
+#!/usr/bin/env Rscript
 dn <- file('/dev/null',open="w")
 sink(dn,type='output')
 sink(dn,type='message')
