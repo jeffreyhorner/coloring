@@ -11,7 +11,7 @@ mv Albums.txt.new Albums.txt
 grep -oh color.com/s/[a-zA-Z0-9]* Albums.txt | sed -e s'/color.com\/s\///' | sort -u > albums.txt
 
 # Update mapping from t.co -> color.com urls
-grep -oh http://t\\.co/[a-zA-Z0-9]\\{7\\} Albums.txt | sort -u > t.co.urls
+grep -oh http://t\\.co/[a-zA-Z0-9]* Albums.txt | sort -u > t.co.urls
 
 awk -F, '{print $1}' t.co.color.urls | sort -u > t.co.$$.txt
 for i in `comm -1 -3 t.co.$$.txt t.co.urls`; do 
